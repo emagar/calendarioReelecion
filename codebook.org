@@ -1,0 +1,28 @@
+Codebook for fechasEleccionesMexicoDesde1994
+
+|-------------+----------------------------------------------------------------------------------------------------|
+| columna     | dato reportado                                                                                     |
+|-------------+----------------------------------------------------------------------------------------------------|
+| edon        | Código del estado (compatibles con INEGI, exceptuando el cero).                                    |
+| elec        | Las filas ‘gob’, ‘dloc’ y ‘ayun’ reportan, respectivamente, la información de las elecciones       |
+|             | gubernatorial, de diputados estatales y de ayuntamientos municipales. En el caso federal           |
+|             | (primeras tres filas) reporta la información de las elecciones presidencial, de diputados y de     |
+|             | senadores.                                                                                         |
+| yr1st       | El año de la primera elección en que los ocupantes (incumbents) pueden contender por reelegirse.   |
+| nTerms      | Número de periodos consecutivos que puede permanecer un ocupante.                                  |
+| y1994-y2025 | Día y mes de la elección correspondiente al año de la columna (doble raya indica que no se celebró |
+|             | elección ese año).                                                                                 |
+|-------------+----------------------------------------------------------------------------------------------------|
+
+|-------------+----------------------------------------------------------------------------------------------------|
+| column      | data reported                                                                                      |
+|-------------+----------------------------------------------------------------------------------------------------|
+| edon        | State number (INEGI-compatible excepting zero).                                                    |
+| elec        | Rows ‘gob’, ‘dloc’ and ‘ayun’ report, respectively, the information for gubernatorial, state       |
+|             | legislative, and municipal elections. For the federal case (top three rows) the information is for |
+|             | the presidential, federal deputy, and senatorial elections.                                        |
+| yr1st       | Year in which first incumbents are allowed to run for reelection.                                  |
+| nTerms      | Number of consecutive terms that incumbent can serve (term limits apply afterwards).               |
+| y1994-y2025 | Day and month of the election for year in column (double hyphen indicates that no election was     |
+|             | held that year).                                                                                   |
+|-------------+----------------------------------------------------------------------------------------------------|

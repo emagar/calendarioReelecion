@@ -1,0 +1,2676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-04-24 Mon 21:32 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Calendarios e instituciones de reelección consecutiva en México</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Eric Magar y alumnos de Política Comparada II" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Calendarios e instituciones de reelección consecutiva en México
+<br>
+<span class="subtitle">v1.0</span>
+</h1>
+<p>
+La reforma electoral de 2014 eliminó la prohibición de reelección legislativa consecutiva en vigor desde 1933. Abrió también la posibilidad de reelegir consecutivamente a los alcaldes, síndicos y regidores de los ayuntamientos. 
+</p>
+
+<p>
+La constitución federal deja discreción a los estados en la definición de sus instituciones de reelección consecutiva, pero también establece dos restricciones generales. Una es la duración en el cargo, máximo doce años consecutivos para legisladores y seis para gobernantes municipales. Otra (con algunos matices) es que la postulación sólo podrá hacerla el mismo partido que eligió al representante. 
+</p>
+
+<p>
+Reportamos aquí la variación subnacional en las instituciones de reelección de México y el texto constitucional relevante. Para establecer la cronología del cambio, reportamos también el calendario electoral desde 1994. Y donde son pertinentes hacemos anotaciones (en particular, aceca de discrepancias con la información que ha publicado el IMCO <a href="http://imco.org.mx/politica_buen_gobierno/reeleccion-legislativa-a-nivel-local/">aquí</a>.
+</p>
+
+<div id="outline-container-orgf6ff5e6" class="outline-2">
+<h2 id="orgf6ff5e6"><span class="section-number-2">1</span> Como citar este trabajo</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Magar, Eric et al. (2017) "Calendarios e instituciones de reelección consecutiva en México v1.0". Ciudad de México: Departamento de Ciencia Política, ITAM (disponible en <a href="http://ericmagar.com/data/">http://ericmagar.com/data/</a>).
+</p>
+
+<p class="verse">
+@misc{magarInstReel.2017,<br  />
+&#xa0;author = {Magar, Eric and et al.},<br  />
+&#xa0;title = {Instituciones de reelecci\'on consecutiva en M\'exico v1.0},<br  />
+&#xa0;address = {Ciudad de M\'exico},<br  />
+&#xa0;howpublished = {Departamento de Ciencia Pol\'itica, ITAM},<br  />
+&#xa0;url = {\url{http://ericmagar.com/data/}},<br  />
+&#xa0;year = {2017},<br  />
+}<br  />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2e9dc5c" class="outline-2">
+<h2 id="org2e9dc5c"><span class="section-number-2">2</span> Matriz de datos</h2>
+</div>
+
+<div id="outline-container-org82be080" class="outline-2">
+<h2 id="org82be080"><span class="section-number-2">3</span> Resúmenes por estado</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-org20371a4" class="outline-3">
+<h3 id="org20371a4"><span class="section-number-3">3.1</span> Aguascalientes</h3>
+<div class="outline-text-3" id="text-3-1">
+</div><div id="outline-container-orgc2cbaf1" class="outline-4">
+<h4 id="orgc2cbaf1"><span class="section-number-4">3.1.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=ags</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2019</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 28/7/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org7616cd5" class="outline-4">
+<h4 id="org7616cd5"><span class="section-number-4">3.1.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<ul class="org-ul">
+<li>Art. 18. Los diputados podrán ser electos hasta por dos periodos consecutivos.</li>
+<li>Art. 72. Se establece la elección consecutiva para el mismo cargo de presidentes municipales, regidores y síndicos, por un período adicional.</li>
+<li>Transitorios (decreto 69 28/7/2014)
+<ul class="org-ul">
+<li>Tercero. Los diputados que resulten electos en la elección constitucional del año 2016, iniciarán sus funciones el 15 de noviembre del mismo año, y concluirán su período constitucional el 14 de septiembre del año 2018, los cuales tendrán derecho a la reelección consecutiva por un período más.</li>
+<li>Cuarto. Los presidentes municipales, regidores y síndicos que resulten electos &#x2026; el año 2016, iniciarán sus funciones el 1o de enero 2017 y concluirán su período constitucional el 14 de octubre 2019, los cuales tendrán derecho a la reelección consecutiva por un período más.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org21fcbc2" class="outline-4">
+<h4 id="org21fcbc2"><span class="section-number-4">3.1.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-1-3">
+<p>
+Juan Carlos Palma López (juancarlospalma at live dot com dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8f5e164" class="outline-3">
+<h3 id="org8f5e164"><span class="section-number-3">3.2</span> Baja California</h3>
+<div class="outline-text-3" id="text-3-2">
+</div><div id="outline-container-org67bb2dd" class="outline-4">
+<h4 id="org67bb2dd"><span class="section-number-4">3.2.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=bc</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2019</td>
+<td class="org-right">2019</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 17/10/2014
+</p>
+</div>
+</div>
+<div id="outline-container-orgb758c92" class="outline-4">
+<h4 id="orgb758c92"><span class="section-number-4">3.2.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<ul class="org-ul">
+<li>Art. 16. Los Diputados se elegirán cada tres años y podrán ser electos de manera consecutiva de conformidad con lo dispuesto en la Constitución Política de los Estados Unidos Mexicanos.</li>
+<li>Art. 78. &#x2026; Los Presidentes Municipales, Regidores y Síndicos de los ayuntamientos durarán en su cargo tres años, pudiendo ser electos por un período adicional consecutivo.</li>
+<li>Transitorios (decreto 112 17/10/2014)
+<ul class="org-ul">
+<li>Segundo. La reforma al art. 16 de esta Constitución en materia de reelección de diputados, no será aplicable a los legisladores que hayan protestado el cargo en la legislatura que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Tercero. La reforma al art. 78 de esta Constitución en materia de reelección de presidentes municipales, regidores y síndicos no será aplicable a los integrantes que hayan protestado el cargo en el Ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Sexto. &#x2026; Para efecto de la concurrencia de la elección de diputados con el proceso electoral federal 2021, los periodos de la XXII y XXIII Legislatura, serán los siguientes: a) Los Diputados que sean electos en el proceso electoral de 2016, iniciarán su periodo el primero de octubre de 2016 y concluirán el treinta y uno de julio del 2019. b) Los Diputados que sean electos en el proceso electoral de 2019, iniciarán funciones el primero de agosto de 2019 y concluirán el treinta y uno de julio del 2021.</li>
+<li>Séptimo. &#x2026; Para efecto de la concurrencia de la elección de munícipes con el proceso electoral federal 2021, los periodos de los ayuntamientos respectivos, serán los siguientes: a) Los munícipes electos en el proceso electoral de 2016, iniciarán su periodo el primero de diciembre de 2016 y concluirán el treinta de septiembre del 2019. b) Los munícipes electos en el proceso electoral de 2019, iniciarán funciones el primero de octubre de 2019 y concluirán el treinta de septiembre del 2021.</li>
+<li>Octavo. Para efecto de la concurrencia de la elección de Gobernador del Estado con el proceso electoral federal 2021, el Gobernador electo en el proceso electoral de 2019, iniciará funciones el 1 de noviembre de 2019 y concluirá el 31 de octubre de 2021. La reforma al art. 44, mediante el cual se adelanta la toma de posesión del Gobernador del Estado al mes de septiembre posterior a la elección, será aplicable al que sea electo en dicho cargo en el proceso electoral de 2027. Por única ocasión el Gobernador del Estado electo en el proceso electoral de 2021, iniciará funciones el primero de noviembre de 2021 y concluirá el 31 de agosto del 2027.</li>
+</ul></li>
+<li>Art. 21 (ley electoral de Baja California). Los diputados podrán ser electos hasta por cuatro periodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado; salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. En el caso de diputados electos como candidatos independientes sólo podrán postularse para la reelección con la misma calidad de candidato independiente, salvo que se afilie y demuestre su militancia en un partido político antes de la mitad de su periodo, caso en el que sí podrá postularse para reelección por dicho partido.</li>
+<li>Art. 30 (ley electoral). Los Presidentes Municipales, regidores y síndicos podrán ser postulados, al mismo cargo, para el periodo inmediato siguiente. A los suplentes de los anteriores, que no entren en funciones, no se les computará dicho período para efectos de la reelección inmediata. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado; salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. En el caso de munícipes electos como candidatos independientes sólo podrán postularse para la reelección con la misma calidad de candidato independiente, salvo que se afilie y demuestre su militancia en un partido político antes de la mitad de su periodo, caso en el que sí podrá postularse para reelección por dicho partido. Las personas que por elección indirecta o por nombramiento o designación de alguna autoridad desempeñen las funciones propias de esos cargos, cualquiera que sea la denominación que se les dé, podrán ser electas en el período inmediato.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd58ebf5" class="outline-4">
+<h4 id="orgd58ebf5"><span class="section-number-4">3.2.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<p>
+Rodrigo Corona Galindo (rcoronag at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org550a818" class="outline-3">
+<h3 id="org550a818"><span class="section-number-3">3.3</span> Baja California Sur</h3>
+<div class="outline-text-3" id="text-3-3">
+</div><div id="outline-container-org3b5d183" class="outline-4">
+<h4 id="org3b5d183"><span class="section-number-4">3.3.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=bcs</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 27/6/2014
+</p>
+</div>
+</div>
+<div id="outline-container-orgdf27344" class="outline-4">
+<h4 id="orgdf27344"><span class="section-number-4">3.3.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<ul class="org-ul">
+<li>Art. 46. Los Diputados al Congreso del Estado podrán ser reelectos, hasta por cuatro periodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 141. Los Presidentes Municipales, Síndicos y Regidores de los Ayuntamientos que hayan estado en ejercicio, podrán ser reelectos para un período adicional, siempre y cuando el período del mandato de los Ayuntamientos no sea superior a tres años. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Transitorios (decreto 2173, 27/6/2014)
+<ul class="org-ul">
+<li>Tercero. Los procesos electorales ordinarios locales correspondientes a las elecciones para renovar a los integrantes de la Legislatura e integrantes de los Ayuntamientos, que tendrán lugar el año 2018, por única ocasión y en cumplimiento al Decreto de reforma a la Constitución Política de los Estados Unidos Mexicanos de fecha 22 de enero de 2014, y publicada el 10 de febrero del mismo año en el Diario Oficial de la Federación, se realizarán el primer domingo de julio de 2018.</li>
+<li>Sexto. La reforma al art. 46 de esta Constitución en materia de reelección de diputados, no será aplicable a los legisladores que hayan protestado el cargo en la legislatura que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Séptimo. La reforma al art. 141 de esta Constitución en materia de reelección de presidentes municipales, regidores y síndicos no será aplicable a los integrantes que hayan protestado el cargo en el Ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0f57132" class="outline-4">
+<h4 id="org0f57132"><span class="section-number-4">3.3.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-3-3">
+<p>
+Guadalupe Cervantes Terán (gcervan7 at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org45149b6" class="outline-3">
+<h3 id="org45149b6"><span class="section-number-3">3.4</span> Campeche</h3>
+<div class="outline-text-3" id="text-3-4">
+</div><div id="outline-container-orgbe9988e" class="outline-4">
+<h4 id="orgbe9988e"><span class="section-number-4">3.4.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-4-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=cam</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 24/6/2014 
+</p>
+</div>
+</div>
+<div id="outline-container-org47551df" class="outline-4">
+<h4 id="org47551df"><span class="section-number-4">3.4.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-4-2">
+<ul class="org-ul">
+<li>Art. 32. Los Diputados podrán ser electos hasta por cuatro períodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiere postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. La disposición anterior comprende también a los Diputados suplentes y a los que aparezcan en la lista de representación proporcional, siempre que hubiesen ejercido el cargo.</li>
+<li>Art. 102.V. &#x2026; Los Presidentes Municipales, Regidores y Síndicos de los Ayuntamientos y los integrantes de las Juntas Municipales durarán en sus cargos tres años, y podrán ser reelectos hasta por un periodo adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Transitorio (P.O.E. 24/6/2014)
+<ul class="org-ul">
+<li>Undécimo. La reforma a los artículos 32 y 102 en materia de reelección de Diputados locales, así como de Presidentes Municipales, Regidores y Síndicos de los Ayuntamientos y los integrantes de la Juntas Municipales, no será aplicable a los legisladores locales e integrantes de Ayuntamientos y de las Juntas Municipales que hayan protestado el cargo y se encuentren en funciones a la entrada en vigor del presente decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org81a8bfb" class="outline-4">
+<h4 id="org81a8bfb"><span class="section-number-4">3.4.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-4-3">
+<p>
+Michelle Sáenz Fernández (msaenzf at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4069c99" class="outline-3">
+<h3 id="org4069c99"><span class="section-number-3">3.5</span> Coahuila</h3>
+<div class="outline-text-3" id="text-3-5">
+</div><div id="outline-container-org36930ea" class="outline-4">
+<h4 id="org36930ea"><span class="section-number-4">3.5.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-5-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=coa</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2017</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 22/9/2015 
+</p>
+</div>
+</div>
+<div id="outline-container-org707ad9b" class="outline-4">
+<h4 id="org707ad9b"><span class="section-number-4">3.5.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-5-2">
+<ul class="org-ul">
+<li>Art. 30. &#x2026; Los Diputados del Congreso del Estado, podrán ser electos hasta por cuatro periodos consecutivos. La postulación solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Los presidentes municipales, regidores y síndicos de los Ayuntamientos, electos popularmente por elección directa, así como las personas que por elección indirecta, por nombramiento o designación de alguna autoridad desempeñen las funciones propias de esos cargos, cualquiera que sea la denominación que se les dé o las que integren un Concejo Municipal, podrán ser electas para el período inmediato.</li>
+<li>Transitorio (decreto 126, P.O. 22/9/2015)
+<ul class="org-ul">
+<li>Segundo. Los ayuntamientos que se elijan el primer domingo de junio de 2017 durarán en su encargo del 1 de enero al 31 de diciembre de 2018.</li>
+</ul></li>
+<li>Art. 112.3 (Código Electoral). Los diputados podrán ser electos hasta por cuatro periodos consecutivos, en los términos que señala la Constitución y observando lo siguiente: a) La postulación y solicitud de registro solo podrá ser realizada por el mismo partido que los haya postulado previamente o bien por cualquiera de los partidos coaligados, salvo que el interesado haya renunciado o perdido su militancia antes de cumplir la mitad de su periodo de mandato; b) Tratándose de diputados que hayan sido electos como candidatos independientes solo podrán postularse para la reelección con la misma calidad con la que fueron electos; c) Los diputados que pretendan la reelección podrán ser registrados por el principio de mayoría relativa o de representación proporcional.</li>
+<li>Art. 14.4 (Código Electoral). Los integrantes de los ayuntamientos podrán ser electos hasta por dos períodos consecutivos en los términos que señala la Constitución y observando lo siguiente: a) La postulación y solicitud de registro solo podrá ser realizada por el mismo partido que los haya postulado previamente o bien por cualquiera de los partidos coaligados, salvo que el interesado haya renunciado o perdido su militancia antes de cumplir la mitad de su periodo de mandato; b) Tratándose de quienes hayan sido electos como candidatos independientes solo podrán postularse para la reelección con la misma calidad con la que fueron electos; c) Los presidentes municipales, síndicos y regidores que pretendan la reelección deberán ser registrados para el mismo municipio en que fueron electos previamente; d) Quienes hayan ocupado los cargos de síndico o regidor podrán ser postulados en el periodo inmediato siguiente como candidato a presidente municipal, sin que ello suponga reelección, pero quienes hayan ocupado el cargo de presidente municipal no podrán postularse como candidato a síndico o regidor en el periodo inmediato siguiente.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org01d832c" class="outline-4">
+<h4 id="org01d832c"><span class="section-number-4">3.5.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-5-3">
+<p>
+José Rubén Figueroa Velasco (rubenfigueroa1403 at gmail dot com)
+</p>
+</div>
+</div>
+<div id="outline-container-org18c5410" class="outline-4">
+<h4 id="org18c5410"><span class="section-number-4">3.5.4</span> Nota</h4>
+<div class="outline-text-4" id="text-3-5-4">
+<p>
+Discrepamos con IMCO, que enuncia que el art. correspondiente a la reelección es el 18 y en realidad es en el 30. Además, IMCO establece que la reelección aplica para diputados electos en 2017, pero tenemos registro de tres diputados que renominados en la elección de 2017.
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org702877c" class="outline-3">
+<h3 id="org702877c"><span class="section-number-3">3.6</span> Colima</h3>
+<div class="outline-text-3" id="text-3-6">
+</div><div id="outline-container-orgcee6eb1" class="outline-4">
+<h4 id="orgcee6eb1"><span class="section-number-4">3.6.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-6-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=col</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 31/5/2014
+</p>
+</div>
+</div>
+<div id="outline-container-orge7f8d17" class="outline-4">
+<h4 id="orge7f8d17"><span class="section-number-4">3.6.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-6-2">
+<ul class="org-ul">
+<li>Art. 23. Los ciudadanos podrán ser electos para desempeñar el cargo de Diputado Propietario y tendrán derecho a ser electos consecutivamente para el mismo cargo, por un periodo adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 87.I Los presidentes municipales, síndicos y regidores de los Ayuntamientos electos popularmente por elección directa, tendrán derecho a ser electos consecutivamente para el mismo cargo, por un período adicional. La postulación sólo podrá ser realizada por el mismo partido [&#x2026;] Las personas que por elección indirecta o por nombramiento o designación de alguna autoridad, desempeñen las funciones propias de esos cargos. [&#x2026;] podrán ser electas para el mismo cargo para el período inmediato.</li>
+<li>Art. 88. &#x2026; Los Ayuntamientos deberán integrarse en todo el Estado el día 15 de octubre del año de su elección. Sus integrantes durarán en su cargo tres años.</li>
+<li>Transitorios (decreto 313, P.O. 26 SUPL. 1, 31/5/2014)
+<ul class="org-ul">
+<li>Tercero. La reforma del art. 23 de esta Constitución en materia de reelección de diputados locales, no será aplicable a los legisladores que hayan protestado el cargo en la legislatura que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Cuarto. La reforma al tercer párrafo, de la fracción I, del art. 87 de esta Constitución en materia de reelección de presidentes municipales, síndicos y regidores no será aplicable a los integrantes que hayan protestado el cargo en el Ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Quinto. De conformidad con lo que dispone el primer párrafo del art. 86 BIS del presente Decreto, la celebración de las elecciones locales se celebrarán el primer domingo de junio del año que corresponda, en los términos de esta Constitución, a partir del año 2015, salvo aquellas que se verifiquen en el año 2018, las cuales se llevarán a cabo el primer domingo de julio.”</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd29db7b" class="outline-4">
+<h4 id="orgd29db7b"><span class="section-number-4">3.6.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-6-3">
+<p>
+Jimena Soto Calzada (jimena.e.soto.c at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org264f5a6" class="outline-3">
+<h3 id="org264f5a6"><span class="section-number-3">3.7</span> Chiapas</h3>
+<div class="outline-text-3" id="text-3-7">
+</div><div id="outline-container-orge2161e0" class="outline-4">
+<h4 id="orge2161e0"><span class="section-number-4">3.7.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-7-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=cps</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación en el periódico oficial: 29/12/2016?
+</p>
+</div>
+</div>
+<div id="outline-container-org61dba89" class="outline-4">
+<h4 id="org61dba89"><span class="section-number-4">3.7.2</span> Texto de los artículos relevantes</h4>
+<div class="outline-text-4" id="text-3-7-2">
+<ul class="org-ul">
+<li>Art. 28. La elección consecutiva de los diputados a la Legislatura del Estado podrá ser hasta por cuatro periodos; así mismo, los presidentes municipales, regidores y síndicos podrán ser electos por un periodo adicional. En ambos supuestos, la postulación solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiere postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato y de conformidad con lo establecido en la ley respectiva.</li>
+<li>Art. 26 (Código de Elecciones y Participación Ciudadana, adición publicada P.O.E. no. 117 30/6/2014). &#x2026; La elección consecutiva para el mismo cargo de presidentes municipales, regidores y síndicos, será por un periodo adicional. La postulación solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubiere postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato y de conformidad con lo establecido en la ley respectiva.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org695f649" class="outline-4">
+<h4 id="org695f649"><span class="section-number-4">3.7.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-7-3">
+<p>
+Edgar Armando Monsiváis Solís (emonsiva at itam dot mx)
+</p>
+</div>
+</div>
+<div id="outline-container-orgf511e64" class="outline-4">
+<h4 id="orgf511e64"><span class="section-number-4">3.7.4</span> Nota</h4>
+<div class="outline-text-4" id="text-3-7-4">
+<p>
+Diferimos con IMCO, que menciona el art. 26 de la Constitución Local. Es el 28 el que habla de la reelección.
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf5193c2" class="outline-3">
+<h3 id="orgf5193c2"><span class="section-number-3">3.8</span> Chihuahua</h3>
+<div class="outline-text-3" id="text-3-8">
+</div><div id="outline-container-org2ea89d3" class="outline-4">
+<h4 id="org2ea89d3"><span class="section-number-4">3.8.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-8-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=cua</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 8/8/2015
+</p>
+</div>
+</div>
+<div id="outline-container-orgecfbb79" class="outline-4">
+<h4 id="orgecfbb79"><span class="section-number-4">3.8.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-8-2">
+<ul class="org-ul">
+<li>Art. 44. El Congreso se renovará totalmente el año que corresponda. Los diputados del Congreso del Estado podrán ser reelectos hasta por un periodo adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato y que satisfagan los requisitos previstos por la Ley. En el caso de diputados que hayan surgido de postulación independiente, deberán seguir el procedimiento de obtención del apoyo ciudadano que prevea la Ley.</li>
+<li>Art. 126. Los miembros de los ayuntamientos podrán ser reelectos para el mismo cargo por un período adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Los que tengan el carácter de propietarios no podrán ser electos para el periodo inmediato con el cargo de suplentes, pero éstos sí podrán ser electos para el periodo inmediato como propietarios, a menos que hayan estado en ejercicio. En el caso de miembros el ayuntamiento que hayan surgido de postulación independiente, deberán seguir el procedimiento de obtención del apoyo ciudadano por planilla que prevea la Ley. Lo dispuesto en el párrafo anterior no comprende a los Concejos Municipales que hayan sido nombrados por el Congreso en ejercicio de sus funciones.</li>
+<li>Transitorios (decreto 917/2015 II P.O.E. 8/8/2015) 
+<ul class="org-ul">
+<li>Cuarto. Las disposiciones contenidas en los artículos 44, 126 y 128 referentes a reelección de Diputados y Ayuntamientos, aplicará a partir del próximo proceso de elección popular, no siendo aplicable a los integrantes de Sexagésima Cuarta Legislatura ni a los actuales Ayuntamientos del Estado.</li>
+<li>Séptimo.- Se reforma el Artículo Tercero Transitorio del Decreto 883/2012 I P.O. no. 82 13/10/2012, para quedar redactado como sigue: Por una sola vez, circunscrita a los casos que enseguida se enumeran &#x2026; I.- El próximo Gobernador Constitucional del Estado se elegirá por un periodo comprendido del 4 de octubre del 2016 al 7 de septiembre de 2021; II.- Los Diputados que integrarán la LXV Legislatura local, durarán en su cargo un año, once meses, que comprenderá del 01 octubre de 2016 al 31 de agosto de 2018. III.- Los integrantes de los Ayuntamientos que se elijan en el año 2016, durarán igualmente un año, once meses en su encargo, que corresponderá del 10 de octubre de 2016 al 9 de septiembre de 2018. Tratándose de las Juntas Municipales y Comisarías de Policía, sus integrantes durarán en su encargo hasta el 9 de septiembre de 2018, iniciando sus funciones una vez que se haya llevado a cabo el proceso de elección de estos órganos municipales. [Fe de erratas P.O.E. 73 10/9/2016] [Fe de erratas P.O.E. 87 29/10/2016]</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org825889f" class="outline-4">
+<h4 id="org825889f"><span class="section-number-4">3.8.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-8-3">
+<p>
+Marco Cabrera (mcg9626 at hotmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org647636e" class="outline-3">
+<h3 id="org647636e"><span class="section-number-3">3.9</span> Ciudad de México</h3>
+<div class="outline-text-3" id="text-3-9">
+</div><div id="outline-container-orgf4391f6" class="outline-4">
+<h4 id="orgf4391f6"><span class="section-number-4">3.9.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-9-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=df</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2021</td>
+<td class="org-right">2021</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 5/2/2017
+</p>
+</div>
+</div>
+<div id="outline-container-org21d0b64" class="outline-4">
+<h4 id="org21d0b64"><span class="section-number-4">3.9.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-9-2">
+<ul class="org-ul">
+<li>Art. 29.B.3. Las y los diputados al Congreso de la Ciudad de México podrán ser reelectos para un sólo período consecutivo. La postulación deberá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Quienes hubieren accedido al Congreso por la vía de candidaturas sin partido deberán conservar esta calidad para poder ser reelectos.</li>
+<li>Art. 53.A.6. Las alcaldesas y los alcaldes y concejales podrán ser electos consecutivamente para el mismo cargo, hasta por un periodo adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que les hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Transitorio (G.O. 5/2/2017)
+<ul class="org-ul">
+<li>Segundo. Las normas relativas a la elección de los poderes Legislativo y Ejecutivo y de las alcaldías de la Ciudad de México serán aplicables a partir del proceso electoral 2017-2018. En dicho proceso, la jornada electoral será concurrente con la del proceso electoral federal. El sistema electoral y las reglas para la elección de las y los diputados de mayoría relativa y para la asignación de las y los diputados de representación proporcional serán aplicables a partir del proceso electoral 2017-2018. Lo dispuesto en los artículos 29, apartado B, numeral 3 y 53, apartado A, numeral 6 de esta Constitución, será aplicable a partir de la elección de 2021 a las y los diputados e integrantes de las alcaldías que sean electos en 2018.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7448453" class="outline-4">
+<h4 id="org7448453"><span class="section-number-4">3.9.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-9-3">
+<p>
+Ricardo de la Teja Morales (rdelate1 at itam dot mx)
+</p>
+</div>
+</div>
+<div id="outline-container-org1f6b3d5" class="outline-4">
+<h4 id="org1f6b3d5"><span class="section-number-4">3.9.4</span> Nota</h4>
+<div class="outline-text-4" id="text-3-9-4">
+<p>
+IMCO reportó instituciones previas a la constitución de la CdMx.
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc799035" class="outline-3">
+<h3 id="orgc799035"><span class="section-number-3">3.10</span> Durango</h3>
+<div class="outline-text-3" id="text-3-10">
+</div><div id="outline-container-org759d6a7" class="outline-4">
+<h4 id="org759d6a7"><span class="section-number-4">3.10.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-10-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=dgo</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2019</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 6/3/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org79fff87" class="outline-4">
+<h4 id="org79fff87"><span class="section-number-4">3.10.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-10-2">
+<ul class="org-ul">
+<li>Art. 22. Los diputados podrán ser electos hasta por cuatro periodos consecutivos. La postulación para ser reelecto solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiere postulado originariamente, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. En el caso de un diputado que sea electo como independiente podrá postularse para la reelección solamente con su misma calidad y no podrá ser postulado por un partido político, a menos que demuestre su militancia a ese partido político antes de la mitad de su mandato; la ley establecerá las normas aplicables.</li>
+<li>Art. 73.IV. Los presidentes, regidores y el síndico de los ayuntamientos, electos popularmente por elección directa en los términos de las leyes respectivas, podrán ser postulados, por única vez, al mismo cargo para el período inmediato siguiente. La postulación para ser reelecto solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiere postulado originariamente, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. En el caso de los munícipes que sean electos como independientes, podrán postularse para la reelección solamente con su misma calidad y no podrán ser postulados por un partido político, a menos que demuestren su militancia a ese partido político antes de la mitad de su mandato. Quienes pretendan ser postulados para un segundo periodo en los ayuntamientos deberán separarse del cargo al menos con noventa días de anticipación al día de la jornada electoral.</li>
+<li>Transitorios (decreto 128, 6/3/2014)
+<ul class="org-ul">
+<li>Segundo. La reelección de presidentes municipales, regidores y síndicos no será aplicable a los integrantes que hayan protestado el cargo en el Ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Tercero. La reelección de diputados del Congreso Local, no será aplicable para aquellos que se encuentren en funciones a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+<li>Transitorios (decreto 171, 24/6/2014)
+<ul class="org-ul">
+<li>Tercero. Para efectos de cumplir con lo dispuesto en el art. 116, fracción IV, inciso n), de la Constitución Política de los Estados Unidos Mexicanos, en el sentido de verificar, al menos, una elección local en la misma fecha en que tenga lugar alguna de las elecciones federales; los diputados que sean electos en el año dos mil dieciséis, durarán dos años en el ejercicio de su encargo.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org131ca2b" class="outline-4">
+<h4 id="org131ca2b"><span class="section-number-4">3.10.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-10-3">
+<p>
+Gretel Calleros Arellano (gretelcalleros07 at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org633434c" class="outline-3">
+<h3 id="org633434c"><span class="section-number-3">3.11</span> Guanajuato</h3>
+<div class="outline-text-3" id="text-3-11">
+</div><div id="outline-container-orgf2eb116" class="outline-4">
+<h4 id="orgf2eb116"><span class="section-number-4">3.11.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-11-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=gua</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 27/6/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org3ab571d" class="outline-4">
+<h4 id="org3ab571d"><span class="section-number-4">3.11.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-11-2">
+<ul class="org-ul">
+<li>Art. 47. Los Diputados podrán ser electos hasta por cuatro periodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos políticos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Ninguno de los Diputados mencionados en el párrafo anterior, cuando hayan tenido el carácter de propietarios durante cuatro periodos consecutivos, podrán ser electos para el periodo inmediato como suplentes, pero éstos sí podrán ser electos para el periodo inmediato como propietarios si en su última elección tuvieron el cargo de suplentes.</li>
+<li>Art. 113. Los presidentes municipales, regidores y síndicos electos popularmente, durarán en su encargo tres años y podrán ser electos consecutivamente, para el mismo cargo por un periodo adicional. La postulación sólo podrá ser realizada por el mismo partido político o por cualquiera de los partidos políticos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Los miembros de los Concejos Municipales no podrán ser electos para el período inmediato.</li>
+<li>Art. 114. Ninguno de los funcionarios municipales mencionados en el art. anterior, cuando hayan tenido el carácter de Propietarios durante los dos periodos consecutivos, podrán ser electos para el periodo inmediato como suplentes, pero éstos sí podrán ser electos para el período inmediato como propietarios, pudiendo ser electos para el mismo cargo hasta por un periodo adicional.</li>
+<li>Transitorios (P.O. 27/6/2014)
+<ul class="org-ul">
+<li>Segundo. A partir de 2015, se celebrarán las elecciones a Diputados y Ayuntamientos, el primer domingo de junio del año que corresponda, salvo la elección de Gobernador, la cual se realizará el primer domingo de julio de 2018.</li>
+<li>Quinto. Las reformas a los artículos 47 y 113 de esta Constitución, no serán aplicables a los Diputados Locales, Presidentes Municipales, Regidores y Síndicos que hayan protestado el cargo en la Legislatura o Ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgaa004a7" class="outline-4">
+<h4 id="orgaa004a7"><span class="section-number-4">3.11.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-11-3">
+<p>
+Teresa Ruiz Rivera (tere.r96z at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org936dc9d" class="outline-3">
+<h3 id="org936dc9d"><span class="section-number-3">3.12</span> Guerrero</h3>
+<div class="outline-text-3" id="text-3-12">
+</div><div id="outline-container-org939bb19" class="outline-4">
+<h4 id="org939bb19"><span class="section-number-4">3.12.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-12-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=gue</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 29/4/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org0127db6" class="outline-4">
+<h4 id="org0127db6"><span class="section-number-4">3.12.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-12-2">
+<ul class="org-ul">
+<li>Art. 176.1. El período de ejercicio de los integrantes de los Ayuntamientos será de tres años, con posibilidad de reelección inmediata por un sólo periodo constitucional, bajo las siguientes bases: I. La postulación para los efectos de la reelección inmediata sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que haya renunciado o perdido su militancia antes de la mitad de su mandato. Quienes sean postulados por partidos políticos no podrán participar en calidad de candidatos independientes; y, II. Los ciudadanos podrán participar como candidatos independientes. Quien así contienda lo hará siempre bajo la misma calidad, no pudiendo ser postulados por un partido político o coalición en tratándose de la reelección inmediata&#x2026;</li>
+<li>Art. 45. &#x2026; Los diputados al Congreso del Estado podrán ser electos de manera consecutiva hasta por cuatro periodos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado. Tratándose de los candidatos independientes sólo podrán postularse con ese carácter&#x2026;</li>
+<li>Art. 50. El período de ejercicio del cargo dentro de la función legislativa será de tres años con la posibilidad de reelección consecutiva hasta por 4 periodos que sumarán, de ser el caso hasta 12 años y atendiendo a lo dispuesto en el art. 45, párrafo cuarto, de la presente Constitución. Los diputados suplentes tendrán el derecho de postularse como candidatos propietarios.</li>
+<li>Transitorios (P.O. 34 ALCANCE I, 29/4/2014)
+<ul class="org-ul">
+<li>Séptimo. Las elecciones se celebrarán el primer domingo de junio del año que corresponda, en los términos de esta Constitución, a partir del 2015, salvo aquellas que se verifiquen en 2018, las cuáles se llevarán a cabo el primer domingo de julio.</li>
+<li>Octavo. La instalación del Congreso del Estado en los términos dispuestos en el artículo 57, y los periodos de sesiones previstos en el artículo 59, numeral 1, entrarán en vigor con la Legislatura electa el primer domingo de julio de 2018. La Legislatura electa para el periodo constitucional 2015-2018, durará en ejercicio de sus funciones del 13 de septiembre de 2015 al 31 de agosto de 2018. Los Órganos de Gobierno y de Representación a que se refiere el artículo 63, entrarán en vigor con la Legislatura electa en el 2015.</li>
+<li>Noveno. El Gobernador del Estado que resulte electo en 2015 durará en el ejercicio del cargo el periodo comprendido del veintisiete de octubre de 2015 al catorce de octubre de 2021. El Gobernador del Estado que resulte electo en 2021 tomará posesión de su cargo, de conformidad con el artículo 72 de esta Constitución, el quince de octubre de 2021.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge60d1bb" class="outline-4">
+<h4 id="orge60d1bb"><span class="section-number-4">3.12.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-12-3">
+<p>
+José Rubén Figueroa Velasco (rubenfigueroa1403 at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga636dcd" class="outline-3">
+<h3 id="orga636dcd"><span class="section-number-3">3.13</span> Hidalgo</h3>
+<div class="outline-text-3" id="text-3-13">
+</div><div id="outline-container-org2ac36a9" class="outline-4">
+<h4 id="org2ac36a9"><span class="section-number-4">3.13.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-13-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=hgo</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-left">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-left">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-left">(no consecutiva)</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 22/12/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org61caaa1" class="outline-4">
+<h4 id="org61caaa1"><span class="section-number-4">3.13.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-13-2">
+<ul class="org-ul">
+<li>Art. 33. Los Diputados al Congreso del Estado, podrán ser electos hasta por un periodo consecutivo. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieran postulado; salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 125. Los presidentes municipales, síndicos y regidores de los ayuntamientos, electos popularmente por elección directa, no podrán ser reelectos para el periodo inmediato&#x2026;</li>
+<li>Transitorio (P.O. 22/12/2014)
+<ul class="org-ul">
+<li>Segundo. &#x2026; los integrantes de la LXIII Legislatura del Congreso del Estado, que resulten electos el primer domingo de junio del 2016, durarán por única vez en su encargo dos años, para que la próxima elección de Diputados Locales se verifique el día en que se lleve a cabo la elección federal de 2018.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3fd2a5e" class="outline-4">
+<h4 id="org3fd2a5e"><span class="section-number-4">3.13.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-13-3">
+<p>
+Oscar Alcántara (oav1995 at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org68ad34c" class="outline-3">
+<h3 id="org68ad34c"><span class="section-number-3">3.14</span> Jalisco</h3>
+<div class="outline-text-3" id="text-3-14">
+</div><div id="outline-container-orgfacbb4e" class="outline-4">
+<h4 id="orgfacbb4e"><span class="section-number-4">3.14.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-14-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=jal</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 8/7/2014
+</p>
+</div>
+</div>
+<div id="outline-container-orgeffea2c" class="outline-4">
+<h4 id="orgeffea2c"><span class="section-number-4">3.14.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-14-2">
+<ul class="org-ul">
+<li>Art. 22. Los diputados podrán ser electos hasta por cuatro periodos consecutivos. La postulación para ser reelecto solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiere postulado originariamente, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. En el caso de un diputado que sea electo como independiente podrá postularse para la reelección solamente con su misma calidad y no podrá ser postulado por un partido político, a menos que demuestre su militancia a ese partido político antes de la mitad de su mandato; la ley establecerá las normas aplicables.</li>
+<li>Art. 73.IV. Los presidentes, regidores y el síndico de los ayuntamientos, electos popularmente por elección directa en los términos de las leyes respectivas, podrán ser postulados, por única vez, al mismo cargo para el período inmediato siguiente. La postulación para ser reelecto solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiere postulado originariamente, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato; la ley electoral establecerá las normas aplicables. En el caso de los munícipes que sean electos como independientes, podrán postularse para la reelección solamente con su misma calidad y no podrán ser postulados por un partido político, a menos que demuestren su militancia a ese partido político antes de la mitad de su mandato.</li>
+<li>Transitorio (decreto 24904/LX/14, P.O. 8/7/2014)
+<ul class="org-ul">
+<li>Segundo. La reelección de diputados y munícipes aplicará para los electos en la jornada electoral del año 2015.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org92a544d" class="outline-4">
+<h4 id="org92a544d"><span class="section-number-4">3.14.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-14-3">
+<p>
+Sofía De la Mora (sdelamort at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org74576d9" class="outline-3">
+<h3 id="org74576d9"><span class="section-number-3">3.15</span> México</h3>
+<div class="outline-text-3" id="text-3-15">
+</div><div id="outline-container-orgd5541ea" class="outline-4">
+<h4 id="orgd5541ea"><span class="section-number-4">3.15.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-15-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=mex</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 24/6/2014 
+</p>
+</div>
+</div>
+<div id="outline-container-org119b8b8" class="outline-4">
+<h4 id="org119b8b8"><span class="section-number-4">3.15.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-15-2">
+<ul class="org-ul">
+<li>Art. 44. La Legislatura del Estado se renovará en su totalidad cada tres años, la ley de la materia determinará la fecha de la elección. Los Diputados podrán ser electos de manera consecutiva hasta por cuatro periodos; la postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiera postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. La Ley establecerá las medidas para que la elección conserve el carácter de libre y auténtica, garantizando la observancia de los principios consagrados en esta Constitución.</li>
+<li>Art. 116. Los ayuntamientos serán asamblea deliberante y tendrán autoridad y competencia propias en los asuntos que se sometan a su decisión, pero la ejecución de ésta corresponderá exclusivamente a los presidentes municipales, quienes durarán en sus funciones tres años. La elección consecutiva para el mismo cargo de presidentes municipales, regidores y síndicos, será por un periodo adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiere postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato y de conformidad con lo establecido en la ley respectiva.</li>
+<li>Transitorio (decreto 237 P.O. 24/6/2014)
+<ul class="org-ul">
+<li>Tercero. La reforma a los artículos 44 y 116 de esta Constitución será aplicable a los Diputados Locales e integrantes de los Ayuntamientos que sean electos a partir del proceso electoral de 2015.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb9bae73" class="outline-4">
+<h4 id="orgb9bae73"><span class="section-number-4">3.15.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-15-3">
+<p>
+Teresa Ruiz Rivera (tere.r96z at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org31dc6ec" class="outline-3">
+<h3 id="org31dc6ec"><span class="section-number-3">3.16</span> Michoacán</h3>
+<div class="outline-text-3" id="text-3-16">
+</div><div id="outline-container-orgf68def9" class="outline-4">
+<h4 id="orgf68def9"><span class="section-number-4">3.16.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-16-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=mic</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 25/6/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org07c5d5d" class="outline-4">
+<h4 id="org07c5d5d"><span class="section-number-4">3.16.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-16-2">
+<ul class="org-ul">
+<li>Art. 20. El Congreso del Estado se integra con representantes del pueblo, electos en su totalidad cada tres años, con opción de ser electos hasta por cuatro periodos consecutivos. La elección se celebrará el primer domingo del mes de junio del año en que concluya su función la Legislatura&#x2026;</li>
+<li>Art. 22. El diputado suplente que haya ejercido el cargo de propietario, para efectos del artículo 20 de esta Constitución, se le contabilizará como un periodo.</li>
+<li>Art. 116. Los Presidentes Municipales, Síndicos y Regidores de los Ayuntamientos electos directa o indirectamente que desempeñen las funciones propias de esos cargos, cualquiera que sea la denominación que se les dé, podrán ser reelectos para el período inmediato. Los funcionarios antes mencionados, cuando teniendo el carácter de suplentes, hayan ejercido el cargo de propietarios, se les contabilizará como un período. Lo anterior, también será aplicable a las autoridades electas por los sistemas normativos y de gobierno interno de las comunidades indígenas.</li>
+<li>Art. 117. Los ayuntamientos tendrán un periodo de ejercicio de tres años, con opción de elegirse por un periodo más. La elección de la totalidad de sus integrantes se celebrará el primer domingo del mes de junio del año en que concluya el período constitucional, y tomarán posesión de su cargo el día primero del mes de septiembre del año de su elección. (&#x2026;)</li>
+<li>Transitorios (P.O. 25/6/2014)
+<ul class="org-ul">
+<li>Quinto. La celebración de las próximas elecciones, una vez que haya entrado en vigor el presente Decreto conforme al art. transitorio precedente, será en los términos de esta Constitución, salvo aquellas que se verifiquen en el año 2018, las cuales se llevarán a cabo el primer domingo del mes de julio.</li>
+<li>Sexto. La presente reforma, por lo que ve a la reelección, no será aplicable a los Legisladores, Presidentes Municipales, Síndicos y Regidores, que hayan protestado el cargo en la Legislatura o Ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6bb5fab" class="outline-4">
+<h4 id="org6bb5fab"><span class="section-number-4">3.16.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-16-3">
+<p>
+Javier Cote (fjaviercote at hotmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org306b53d" class="outline-3">
+<h3 id="org306b53d"><span class="section-number-3">3.17</span> Morelos</h3>
+<div class="outline-text-3" id="text-3-17">
+</div><div id="outline-container-org3a7ba52" class="outline-4">
+<h4 id="org3a7ba52"><span class="section-number-4">3.17.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-17-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=mor</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">3</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 27/6/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org19b617d" class="outline-4">
+<h4 id="org19b617d"><span class="section-number-4">3.17.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-17-2">
+<ul class="org-ul">
+<li>Art. 24. &#x2026; El Congreso del Estado se renovará cada tres años. Por cada Diputado Propietario se elegirá un Suplente; los Diputados Propietarios podrán ser electos hasta por tres periodos consecutivos&#x2026; Los Diputados Locales Suplentes podrán ser electos para el período inmediato con el carácter de Propietario, pudiendo reelegirse de conformidad con la normatividad.</li>
+<li>Art. 26.VI. [No pueden ser Diputados] Los Diputados Locales que pretendan su reelección y hayan sido postulados por un Partido Político o Coalición distintos al que los postuló, así como los que habiendo sido candidatos independientes sean propuestos por un Partido Coalición, en términos de lo dispuesto por el art. 24 de esta Constitución.</li>
+<li>Art. 112. &#x2026; Los Presidentes Municipales, Síndicos y Regidores de los Ayuntamientos, por elección directa, podrán ser reelectos únicamente para un período adicional de gestión consecutiva. Las personas que por elección indirecta, o por nombramiento o designación &#x2026; podrán ser reelectos para el período inmediato. Todos los representantes populares antes mencionados, cuando tengan el carácter de propietarios, podrán ser reelectos para el período inmediato con el carácter de suplentes, los que tengan el carácter de suplentes, podrán ser electos para el período inmediato como propietarios a menos que tengan alguna causa de exclusión por haber sido reelectos en el período constitucional establecido.</li>
+<li>Transitorio (decreto 1498, P.O. 27/6/2014)
+<ul class="org-ul">
+<li>Tercera. La reforma a los artículos 32, segundo párrafo y 112, párrafo sexto de esta Constitución, será aplicable a los integrantes de los Ayuntamientos que sea electos a partir del Proceso Electoral de 2018. Por única ocasión, los integrantes de los Ayuntamientos electos en el proceso electoral del año 2015, iniciarán sus encargos el 1 de enero de 2016 y concluirán el 4 de octubre de 2018. El derecho de reelección de Diputados, Presidentes Municipales, Síndicos y Regidores no será aplicable a los que hayan protestado el cargo en el que se encuentren en funciones a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+<li>Transitorio (P.O. 17/2/2016)
+<ul class="org-ul">
+<li>Tercero. Las administraciones municipales que inician su gestión el 1ª de enero de 2016, concluirán su ejercicio constitucional el 31 de diciembre de 2018.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9681108" class="outline-4">
+<h4 id="org9681108"><span class="section-number-4">3.17.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-17-3">
+<p>
+Jimena Soto Calzada (jimena.e.soto.c at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga137510" class="outline-3">
+<h3 id="orga137510"><span class="section-number-3">3.18</span> Nayarit</h3>
+<div class="outline-text-3" id="text-3-18">
+</div><div id="outline-container-org1584ca7" class="outline-4">
+<h4 id="org1584ca7"><span class="section-number-4">3.18.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-18-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=nay</th>
+<th scope="col" class="org-left">diputados</th>
+<th scope="col" class="org-left">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-left">4</td>
+<td class="org-left">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-left">2021?</td>
+<td class="org-left">2024?</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 10/2/2016
+</p>
+</div>
+</div>
+<div id="outline-container-org1c0837b" class="outline-4">
+<h4 id="org1c0837b"><span class="section-number-4">3.18.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-18-2">
+<ul class="org-ul">
+<li>Art. 26. El Congreso del Estado se integrará por dieciocho diputados electos por mayoría relativa y doce diputados electos por representación proporcional, quienes podrán ser electos hasta por cuatro períodos consecutivos. La postulación para ser elegido por un período adicional sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 107. Los Ayuntamientos se renovarán en su totalidad cada tres años y sus integrantes, serán electos popularmente por elección directa hasta por dos períodos consecutivos para el mismo cargo, en los términos que prescribe la Constitución General de la República y la Ley de la materia. La postulación por un período adicional sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato&#x2026; Ninguno de los funcionarios municipales mencionados [Presidente, Síndico y Regidores], cuando hayan tenido el carácter de Propietarios, podrán ser electos para el periodo inmediato como suplentes, pero éstos sí podrán ser electos para el periodo inmediato como propietarios, pudiendo ser electos para el mismo cargo hasta por un periodo adicional.</li>
+<li>Transitorio (P.O. 10/6/2016)
+<ul class="org-ul">
+<li>Segundo. Considerando lo dispuesto en el art. 63 de la Constitución Política del Estado Libre y Soberano de Nayarit, por única ocasión el ejercicio constitucional del Gobernador del Estado que resulte electo el primer domingo de junio del año 2017, comprenderá del día 19 de septiembre 2017, al día 18 de septiembre 2021.</li>
+<li>Tercero. Los integrantes del Congreso del Estado que resulten electos en el proceso electoral a verificarse en el año 2017, durarán en su cargo por única ocasión cuatro años.</li>
+<li>Cuarto. Los miembros de los ayuntamientos que resulten electos en el proceso electoral a verificarse en el año 2017, durarán en su cargo por única ocasión cuatro años.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org374f100" class="outline-4">
+<h4 id="org374f100"><span class="section-number-4">3.18.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-18-3">
+<p>
+Sofía De la Mora (sdelamort at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd38a77d" class="outline-3">
+<h3 id="orgd38a77d"><span class="section-number-3">3.19</span> Nuevo León</h3>
+<div class="outline-text-3" id="text-3-19">
+</div><div id="outline-container-orgf2b78c8" class="outline-4">
+<h4 id="orgf2b78c8"><span class="section-number-4">3.19.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-19-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=nl</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 8/7/2014
+</p>
+</div>
+</div>
+<div id="outline-container-orga7e76d1" class="outline-4">
+<h4 id="orga7e76d1"><span class="section-number-4">3.19.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-19-2">
+<ul class="org-ul">
+<li>Art. 49. Los Diputados podrán ser electos hasta por cuatro periodos consecutivos. La postulación solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 123. Los miembros del Ayuntamiento se renovarán cada tres años, tomando posesión los electos, el día 31 de Octubre.</li>
+<li>Art. 124. Los Presidentes Municipales, Regidores y Síndicos de los Ayuntamientos, podrán ser electos consecutivamente hasta por un periodo adicional. La postulación solo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Los presidentes municipales de los ayuntamientos no podrán ser electos para el periodo inmediato, en municipio diverso al cual se desempeñaron como tales.</li>
+<li>Transitorios (decreto 179, P.O. 8/7/2014)
+<ul class="org-ul">
+<li>Primero. El presente Decreto entrará en vigor en la misma fecha en que lo hagan las modificaciones a la legislación electoral del Estado a que se refiere el Transitorio Segundo siguiente.</li>
+<li>Segundo.- Para adecuar el marco jurídico conforme a las disposiciones del presente Decreto, la Legislatura del Estado deberá realizar las modificaciones correspondientes a la Ley Electoral a más tardar el 08 de julio de 2014.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge1304ad" class="outline-4">
+<h4 id="orge1304ad"><span class="section-number-4">3.19.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-19-3">
+<p>
+Michelle Sáenz Fdz (msaenzf at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org89fe615" class="outline-3">
+<h3 id="org89fe615"><span class="section-number-3">3.20</span> Oaxaca</h3>
+<div class="outline-text-3" id="text-3-20">
+</div><div id="outline-container-orgc87f297" class="outline-4">
+<h4 id="orgc87f297"><span class="section-number-4">3.20.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-20-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=oax</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 30/6/2015
+</p>
+</div>
+</div>
+<div id="outline-container-orge40ea66" class="outline-4">
+<h4 id="orge40ea66"><span class="section-number-4">3.20.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-20-2">
+<ul class="org-ul">
+<li>Art. 29. &#x2026; Los Presidentes Municipales, Regidores y Síndicos de los Ayuntamientos, electos popularmente por elección directa podrán ser electos consecutivamente para un período adicional, siempre y cuando el período del mandato de los ayuntamientos no sea superior a tres años. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Ninguno de los servidores públicos municipales mencionados en el párrafo anterior, cuando hayan tenido el carácter de propietarios durante los dos períodos consecutivos, podrán ser electos para el período inmediato como suplentes, pero éstos sí podrán ser electos para el período inmediato como propietarios, pudiendo ser electos para el mismo cargo hasta por un período adicional.</li>
+<li>Art. 32. Los Diputados Propietarios podrán ser reelectos hasta por un período consecutivo adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que haya renunciado o perdido su militancia antes de la mitad de su mandato. Ninguno de los Diputados mencionados en el párrafo anterior, cuando hayan sido reelectos con el carácter de propietarios durante un período consecutivo anterior, podrá ser electo para el período inmediato como suplente, pero éstos sí podrán ser electos para el período inmediato como propietarios.</li>
+<li>Transitorios (decreto 1263 P.O. extra 30/6/2015)
+<ul class="org-ul">
+<li>Octavo. a) Por única ocasión las y los diputados al Congreso del Estado que se elijan el primer domingo de junio de 2016, iniciarán su período el 13 de noviembre de 2016 y concluirán el 13 de noviembre de 2018. b) Por única ocasión, los integrantes de los ayuntamientos electos por el sistema de partidos políticos y candidatos independientes en el proceso electoral del año 2016, iniciarán su período el primero de enero de 2017 y concluirán el 31 de diciembre de 2018.</li>
+<li>Décimo segundo. Las reformas a los art. 29 y 32 de esta Constitución en materia de elecciones consecutivas serán aplicables a los diputados y miembros de los ayuntamientos que sean electos a partir del proceso electoral de 2016.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org34a33ea" class="outline-4">
+<h4 id="org34a33ea"><span class="section-number-4">3.20.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-20-3">
+<p>
+José Alejandro Palma López (alex.palma at live dot com dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd9b6e23" class="outline-3">
+<h3 id="orgd9b6e23"><span class="section-number-3">3.21</span> Puebla</h3>
+<div class="outline-text-3" id="text-3-21">
+</div><div id="outline-container-orge5bfb1f" class="outline-4">
+<h4 id="orge5bfb1f"><span class="section-number-4">3.21.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-21-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=pue</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2021</td>
+<td class="org-right">2021</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 29/7/2015.
+</p>
+</div>
+</div>
+<div id="outline-container-org01862cd" class="outline-4">
+<h4 id="org01862cd"><span class="section-number-4">3.21.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-21-2">
+<ul class="org-ul">
+<li>Art. 37 &#x2026; Los diputados a la legislatura local podrán ser electos consecutivamente hasta por cuatro períodos, la postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los integrantes de la coalición que los hubieren postulado, salvo que hayan perdido o renunciado a su militancia antes de la mitad de su mandato.</li>
+<li>Art. 102.II. Los Presidentes Municipales, Regidores y Síndico de los Ayuntamientos podrán ser electos consecutivamente para el mismo cargo por un período adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los integrantes de la coalición que los hubieren postulado, salvo que hayan perdido o renunciado a su militancia antes de la mitad de su mandato. No podrán ser electos para un tercer período consecutivo, como propietarios: a) Los Presidentes Municipales, Regidores y Síndico de los Ayuntamientos, electos popularmente. b) Las personas que desempeñen o hayan desempeñado las funciones propias de esos cargos, cualquiera que sea la denominación que se les dé y la forma de su nombramiento, designación o elección.</li>
+<li>Transitorio (P.O. 29/7/2015)
+<ul class="org-ul">
+<li>Cuarto. La reforma a los artículos 37 y 102 de esta Constitución será aplicable a los diputados y ayuntamientos que sean electos a partir del proceso electoral de 2018.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3c98935" class="outline-4">
+<h4 id="org3c98935"><span class="section-number-4">3.21.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-21-3">
+<p>
+Rodrigo Corona Galindo (rcoronag at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga01587e" class="outline-3">
+<h3 id="orga01587e"><span class="section-number-3">3.22</span> Querétaro</h3>
+<div class="outline-text-3" id="text-3-22">
+</div><div id="outline-container-org4eadbc0" class="outline-4">
+<h4 id="org4eadbc0"><span class="section-number-4">3.22.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-22-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=que</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 26/6/2014.
+</p>
+</div>
+</div>
+<div id="outline-container-orga233da9" class="outline-4">
+<h4 id="orga233da9"><span class="section-number-4">3.22.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-22-2">
+<ul class="org-ul">
+<li>Art. 16. El Poder Legislativo se deposita en una asamblea que se nombrará Legislatura del Estado, integrada por representantes populares denominados diputados, los que serán electos cada tres años y podrán ser electos consecutivamente hasta por cuatro periodos, en los términos de la ley de la materia.</li>
+<li>Art. 35. Los Presidentes Municipales, los Regidores y los Síndicos, podrán ser electos consecutivamente, por un periodo adicional, en términos de la ley de la materia.</li>
+<li>Transitorios (P.O. 34 26/6/2014)
+<ul class="org-ul">
+<li>Tercero. En materia de elección consecutiva de diputados locales, no será aplicable a los legisladores que hayan protestado el cargo en la Legislatura que se encuentre en funciones a la entrada en vigor de la presente Ley.</li>
+<li>Cuarto. En materia de elección consecutiva de Presidentes Municipales, Regidores y Síndicos, no será aplicable a los integrantes que hayan protestado el cargo en el Ayuntamiento que se encuentre en funciones a la entrada en vigor de la presente Ley.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc8451b1" class="outline-4">
+<h4 id="orgc8451b1"><span class="section-number-4">3.22.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-22-3">
+<p>
+Valeria Guerrero Muñoz Ledo (vgml9601 at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8f87e3c" class="outline-3">
+<h3 id="org8f87e3c"><span class="section-number-3">3.23</span> Quintana Roo</h3>
+<div class="outline-text-3" id="text-3-23">
+</div><div id="outline-container-org937e8a1" class="outline-4">
+<h4 id="org937e8a1"><span class="section-number-4">3.23.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-23-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=qui</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2019</td>
+<td class="org-right">2019</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 3/11/2016 6/11/2015
+</p>
+</div>
+</div>
+<div id="outline-container-org3639b13" class="outline-4">
+<h4 id="org3639b13"><span class="section-number-4">3.23.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-23-2">
+<ul class="org-ul">
+<li>Art. 57. Los Diputados a la Legislatura, podrán ser reelectos por un período adicional. Los suplentes podrán ser electos para el período inmediato con el carácter de propietarios en una fórmula diversa, siempre que no hubieren estado en ejercicio. Los Diputados Propietarios que hayan sido reelectos para un período adicional, no podrán ser electos para el período inmediato con el carácter de suplentes. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 133. Cada Municipio será gobernado por un Ayuntamiento de elección popular directa, que se renovará cada tres años y residirá en la Cabecera Municipal.</li>
+<li>Art. 139. Los Presidentes Municipales, Síndicos y Regidores de los Ayuntamientos que hayan estado en ejercicio, podrán ser reelectos por un período adicional como propietarios o suplentes. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Transitorios (decreto 341 P.O. 06/11/2015) 
+<ul class="org-ul">
+<li>Segundo. Por única ocasión, los integrantes de los Ayuntamientos serán electos por un período de dos años, el cual iniciará el 30 de septiembre de 2016 y para los efectos establecidos en el art. 139 de esta Constitución, la renuncia o pérdida de militancia no podrá ser menor a un período de dieciocho meses.</li>
+<li>Tercero. Las elecciones locales que se verifiquen en el año 2018, se llevarán a cabo el primer domingo de julio.</li>
+<li>Cuarto. La reforma en materia de reelección no será aplicable a los diputados de la Legislatura que se encuentra en funciones, así como a los Presidentes Municipales, Síndicos y Regidores de los Ayuntamientos que hayan protestado el cargo a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org491d701" class="outline-4">
+<h4 id="org491d701"><span class="section-number-4">3.23.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-23-3">
+<p>
+Eric Magar (emagar at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org654ed60" class="outline-3">
+<h3 id="org654ed60"><span class="section-number-3">3.24</span> San Luis Potosí</h3>
+<div class="outline-text-3" id="text-3-24">
+</div><div id="outline-container-org964a0a3" class="outline-4">
+<h4 id="org964a0a3"><span class="section-number-4">3.24.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-24-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=san</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 26/6/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org1fd428e" class="outline-4">
+<h4 id="org1fd428e"><span class="section-number-4">3.24.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-24-2">
+<ul class="org-ul">
+<li>Art. 48. Los Diputados podrán ser electos hasta por cuatro períodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 114. I. Los ayuntamientos se compondrán por un presidente municipal y el número de regidores y síndicos que la ley determine, electos popularmente por votación directa, quienes podrán reelegirse por un período adicional por el mismo cargo. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiere postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Las personas que, por elección indirecta o por nombramiento o designación de alguna autoridad, desempeñen la función propia de sus cargos, cualquiera que sea la denominación que se les dé, podrán ser reelectas para el período inmediato siguiente.En el caso de los funcionarios suplentes, podrán ser electos para el período inmediato siguiente sin ser considerado como reelección, siempre que no hayan ejercido funciones u ostentado el carácter de propietarios en el Ayuntamiento respectivo.</li>
+<li>Transitorios (decreto 607 P.O. 26/6/2014)
+<ul class="org-ul">
+<li>Séptimo. La reforma a los artículos, 40,y 48 de esta Constitución en materia de reelección de diputados, no será aplicable a los legisladores que hayan protestado el cargo en la legislatura que se encuentre en funciones a la entrada en vigor del Decreto.</li>
+<li>Octavo. La reforma al art. 114 de esta Constitución en materia de reelección de presidentes municipales, regidores y síndicos, no será aplicable a los integrantes que hayan protestado el cargo en el ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8626304" class="outline-4">
+<h4 id="org8626304"><span class="section-number-4">3.24.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-24-3">
+<p>
+Gonzalo Solís ( gsrgonzalo at gmail dot com )
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org240134f" class="outline-3">
+<h3 id="org240134f"><span class="section-number-3">3.25</span> Sinaloa</h3>
+<div class="outline-text-3" id="text-3-25">
+</div><div id="outline-container-orge9db57e" class="outline-4">
+<h4 id="orge9db57e"><span class="section-number-4">3.25.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-25-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=sin</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 1/6/2015
+</p>
+</div>
+</div>
+<div id="outline-container-orgff30e29" class="outline-4">
+<h4 id="orgff30e29"><span class="section-number-4">3.25.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-25-2">
+<ul class="org-ul">
+<li>Art. 14. &#x2026; Las elecciones ordinarias locales se verificarán el primer domingo de junio del año que corresponda. La fecha en que éstas se celebren será concurrente con la que la Constitución Política de los Estados Unidos Mexicanos señale para las elecciones ordinarias federales.</li>
+<li>Art. 25 Bis. Los Diputados en funciones podrán ser nuevamente electos hasta completar un máximo de cuatro periodos consecutivos de ejercicio. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiese postulado originalmente, salvo que el interesado haya renunciado o perdido su militancia antes de la mitad de su mandato. La ley establecerá los requisitos que deberán satisfacerse para una nueva postulación.</li>
+<li>Art. 112. La elección directa de Presidente Municipal, Síndicos Procuradores y Regidores de los Ayuntamientos, se verificará cada tres años y entrarán en funciones el día primero de noviembre del año de su elección, previa protesta que otorgarán ante el Ayuntamiento saliente.</li>
+<li>Art. 117. Los Presidentes Municipales, Síndicos Procuradores y Regidores de los Ayuntamientos de elección popular directa, podrán ser electos consecutivamente para los mismos cargos por un período adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. La ley establecerá los requisitos que deberán satisfacerse para la nueva postulación.</li>
+<li>Transitorios (decreto 332 P.O. 1/6/2015)
+<ul class="org-ul">
+<li>Tercero. La disposición contenida en el art. 25 Bis, relativa a la reelección de Diputados Locales, no será aplicable a los legisladores que hayan protestado el cargo en la Legislatura que se encuentre en funciones a la fecha en que entre en vigor el presente Decreto.</li>
+<li>Cuarto. La reforma al art. 117 de esta Constitución en materia de elección consecutiva de Presidentes Municipales, Síndicos Procuradores y Regidores, no será aplicable a los integrantes de los Ayuntamientos que se encuentren en funciones a la fecha en que entre en vigor el presente Decreto.</li>
+<li>Quinto. Para efecto de posibilitar la instalación del Congreso del Estado en la fecha que señala el art. 26 de esta Constitución, así como la concurrencia de fechas a que se refiere el segundo párrafo de su art. 14, disposición reformada por el presente Decreto, los Diputados que se elijan en el año 2016, durarán en sus cargos dos años, por lo que iniciarán sus funciones el día 1 de octubre de 2016 y las concluirán el 30 de septiembre 2018. Para los mismos efectos señalados en el párrafo anterior, y con el propósito de que los Ayuntamientos se instalen en la fecha establecida en el art. 112 de esta Constitución, así como posibilitar la concurrencia de fechas a que se refiere el segundo párrafo de su art. 14, disposiciones reformadas por el presente Decreto, por única ocasión los Presidentes Municipales, Síndicos Procuradores y Regidores de los Ayuntamientos que se elijan en el año 2016, durarán en sus cargos un año y diez meses, por lo que iniciarán sus funciones el día 1 de enero 2017 y las concluirán el 31 de octubre 2018.</li>
+<li>Sexto. Para efecto de posibilitar el inicio del ejercicio constitucional del Gobernador en la fecha establecida en el artículo 57 de esta Constitución, así como la concurrencia de fechas a que se refiere el segundo párrafo de su artículo 14, disposiciones reformadas por el presente Decreto, por única ocasión, el Gobernador del Estado que resulte electo en la jornada comicial del año dos mil dieciséis, durará en su cargo cuatro años y diez meses, por lo que iniciará sus funciones el día 1 de enero 2017 y concluirá su periodo constitucional el día 31 de octubre 2021.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org90e8697" class="outline-4">
+<h4 id="org90e8697"><span class="section-number-4">3.25.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-25-3">
+<p>
+Patricia Cruz Marína pacruma at gmail dot com
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org56d9a1d" class="outline-3">
+<h3 id="org56d9a1d"><span class="section-number-3">3.26</span> Sonora</h3>
+<div class="outline-text-3" id="text-3-26">
+</div><div id="outline-container-org90cc1b7" class="outline-4">
+<h4 id="org90cc1b7"><span class="section-number-4">3.26.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-26-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=son</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2021</td>
+<td class="org-right">2021</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 19/6/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org56d423d" class="outline-4">
+<h4 id="org56d423d"><span class="section-number-4">3.26.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-26-2">
+<ul class="org-ul">
+<li>Art. 30. Los Diputados al Congreso del Estado serán electos en su totalidad cada tres años. Los diputados podrán ser electos, de manera consecutiva, hasta por cuatro periodos consecutivos sin que la suma de dichos periodos exceda de doce años. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. En los casos de los diputados que hayan sucedido a tal cargo mediante una candidatura independiente, sólo podrán postularse para ser electos de manera consecutiva por esa misma vía, sin que puedan ser postulados por algún partido político o coalición.</li>
+<li>Art. 131. Los Presidente Municipales, Síndicos y Regidores de los Ayuntamientos, electos popularmente por elección directa, podrán ser reelectos para un período adicional, en términos de lo dispuesto en el art. 133 de esta Constitución, sin que la suma de dichos períodos exceda de 6 años. Las personas que por elección indirecta o por nombramiento o designación de alguna autoridad, desempeñen las funciones propias de esos cargos, cualquiera que sea la denominación que se les dé, podrán ser electos para un período adicional, en los términos del presente artículo. En los casos de los integrantes del ayuntamiento que hayan accedido a tal cargo mediante una candidatura independiente, sólo podrán postularse para ser electos de manera consecutiva por esa misma vía, sin que puedan ser postulados por algún partido político o coalición&#x2026;</li>
+<li>Art. 133. El Presidente Municipal y demás miembros del Ayuntamiento durarán en su cargo tres años. Podrán ser electos para el mismo cargo por un período adicional, siempre y cuando el período del mandato de los ayuntamientos no sea superior a tres años. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. Tomarán posesión el día 16 de septiembre del año de su elección. Los cargos de Presidente Municipal, Síndico y Regidor serán obligatorios y remunerados. Solamente serán renunciables por causa justificada que califique el ayuntamiento y apruebe el Congreso. Si alguno de los miembros de un Ayuntamiento dejare de desempeñar su cargo, será substituido por su suplente, o se procederá según lo disponga esta Constitución y la Ley.</li>
+<li>Transitorios (Ley 173 B.O. 49-III 19/6/2014)
+<ul class="org-ul">
+<li>Sexto. La reforma al art. 30 de esta Constitución, en materia de reelección, será aplicable a los diputados que sean electos a partir del proceso electoral que culmine en el año 2018.</li>
+<li>Séptimo. La reforma al art. 131 de esta Constitución, en materia de reelección, será aplicable a los integrantes de los ayuntamientos que sean electos a partir del proceso electoral que culmine en el año 2018.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdfb5b9e" class="outline-4">
+<h4 id="orgdfb5b9e"><span class="section-number-4">3.26.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-26-3">
+<p>
+Fermín Alejandro Acosta Ruiz (facosta3 at hotmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge5b202d" class="outline-3">
+<h3 id="orge5b202d"><span class="section-number-3">3.27</span> Tabasco</h3>
+<div class="outline-text-3" id="text-3-27">
+</div><div id="outline-container-orgb5f4899" class="outline-4">
+<h4 id="orgb5f4899"><span class="section-number-4">3.27.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-27-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=tab</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 21/6/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org4878e6e" class="outline-4">
+<h4 id="org4878e6e"><span class="section-number-4">3.27.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-27-2">
+<ul class="org-ul">
+<li>Art. 16. Los Diputados al Congreso del Estado podrán ser electos en forma consecutiva hasta por cuatro períodos. En este caso, la postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 64. &#x2026; Los Presidentes Municipales, Regidores y Síndicos de los Ayuntamientos, electos popularmente por elección directa, podrán ser reelectos para el período inmediato por una sola ocasión. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado para el primer período, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Transitorio (decreto 117 P.O. 21/6/2014)
+<ul class="org-ul">
+<li>Séptimo. La reforma a los artículos 16 y 64 de esta Constitución en materia de reelección de diputados locales y regidores, no será aplicable a quienes hayan protestado el cargo en la legislatura o ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto&#x2026;</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1ef4726" class="outline-4">
+<h4 id="org1ef4726"><span class="section-number-4">3.27.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-27-3">
+<p>
+Marco Cabrera (mcg9626 at hotmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8a61575" class="outline-3">
+<h3 id="org8a61575"><span class="section-number-3">3.28</span> Tamaulipas</h3>
+<div class="outline-text-3" id="text-3-28">
+</div><div id="outline-container-orge55784d" class="outline-4">
+<h4 id="orge55784d"><span class="section-number-4">3.28.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-28-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=tam</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2019</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 13/6/2015
+</p>
+</div>
+</div>
+<div id="outline-container-org2529d51" class="outline-4">
+<h4 id="org2529d51"><span class="section-number-4">3.28.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-28-2">
+<ul class="org-ul">
+<li>Art. 25: En los términos de la Constitución Federal, la ley general aplicable, esta Constitución y la ley estatal aplicable, los diputados podrán ser reelectos, de manera consecutiva, por una sola ocasión.</li>
+<li>Art. 130: Los integrantes de los Ayuntamientos, electos popularmente por elección directa, podrán ser reelectos para el periodo inmediato, por una sola ocasión. Los ciudadanos que por elección indirecta o por nombramiento o designación de alguna autoridad desempeñen las funciones propias de esos cargos, cualquiera que sea la denominación que se les dé, podrán ser electas para un periodo adicional, en los términos del presente artículo.</li>
+<li>Transitorios (P.O. Extraordinario no. 4 13/6/2015)</li>
+<li>Tercero. Por única ocasión, los integrantes de los Ayuntamientos electos en la jornada comicial del domingo 5 de junio de 2016, durarán en su encargo dos años, concluyendo éste el 30 de septiembre de 2018.
+<ul class="org-ul">
+<li>Quinto. La reforma al art. 25 de esta Constitución, en materia de reelección de diputados locales, no será aplicable a los legisladores que hayan protestado el cargo en la legislatura que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Sexto. La reforma al art. 130 de esta Constitución, en materia de reelección de miembros de los Ayuntamientos, no será aplicable a los integrantes de los cabildos que hayan protestado el cargo en los Ayuntamientos que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7b78f0c" class="outline-4">
+<h4 id="org7b78f0c"><span class="section-number-4">3.28.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-28-3">
+<p>
+Ricardo de la Teja M. (rdelate1 at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfde9a26" class="outline-3">
+<h3 id="orgfde9a26"><span class="section-number-3">3.29</span> Tlaxcala</h3>
+<div class="outline-text-3" id="text-3-29">
+</div><div id="outline-container-orga232075" class="outline-4">
+<h4 id="orga232075"><span class="section-number-4">3.29.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-29-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=tla</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2024</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 21/7/2015
+</p>
+</div>
+</div>
+<div id="outline-container-org970acc3" class="outline-4">
+<h4 id="org970acc3"><span class="section-number-4">3.29.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-29-2">
+<ul class="org-ul">
+<li>Art. 35. &#x2026; Los diputados suplentes podrán ser electos para el periodo inmediato siguiente con el carácter de propietarios, si no hubieren ejercido el cargo. Los diputados propietarios no podrán ser electos para el periodo inmediato, ni aún como suplentes. Los diputados podrán ser electos hasta por cuatro periodos consecutivos, siempre y cuando sean postulados por el mismo partido político o coalición que los postuló, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 90. &#x2026; El presidente municipal, el síndico y los regidores tendrán el carácter de munícipes y serán electos por medio de planillas, en la circunscripción municipal, en procesos electorales ordinarios cada tres años, o en el plazo y para el período que determinen el Congreso del Estado y las leyes aplicables en caso de procesos electorales extraordinarios.</li>
+<li>Transitorios (P.O. 21/7/2015)
+<ul class="org-ul">
+<li>Sexto. El periodo del Gobernador del Estado que se elija en 2016, será por única vez el comprendido del 1 de enero de 2017 al 30 de agosto de 2021. Las reformas a los artículos 54 fracción LVII y 59 de esta Constitución, entrarán en vigor el 31 de agosto de 2021; el periodo del Gobernador electo el primer domingo de junio de 2016, será del 1 de enero de 2017 al 30 de agosto de 2021.</li>
+<li>Séptimo. Las reformas a los artículos 54 fracción LVII y 59 de esta Constitución entrarán en vigor el 31 de agosto del año 2021, por lo que el periodo de gobierno comprendido entre los años 2017 y 2021 iniciará el 1 de enero de 2017 y concluirá el 30 de agosto de 2021, teniendo una duración de cuatro años con ocho meses por única ocasión, a efecto de que la elección de Gobernador se haga concurrente con las elecciones federales de 2021 y subsecuentes en el año que corresponda.</li>
+<li>Octavo. La reforma al art. 38 de esta Constitución entrará en vigor el 30 de agosto del año 2018, por lo que la Legislatura que inicie el 31 de diciembre de 2016, concluirá el 29 de agosto de 2018, teniendo una duración de un año ocho meses, por única ocasión. La elección a efectuarse en el año 2018 se celebrará el primer domingo del mes de julio a efecto de que la elección de diputados locales se haga concurrente con las elecciones federales de 2018 y subsecuentes.</li>
+<li>Noveno. La reforma prevista al art. 90 en lo relativo a la fecha en que asumirán el cargo los integrantes de los ayuntamientos, entrará en vigor el día 31 de agosto 2021. Los ayuntamientos que entren en funciones el 1 de enero de 2017 terminarán el 30 de agosto de 2021, tendiendo una duración de cuatro años ocho meses por única ocasión, a efecto de que la elección de los integrantes de los ayuntamientos se haga concurrente con las elecciones federales de 2021 y subsecuentes.</li>
+<li>Décimo segundo. La elección consecutiva a que hace referencia el art. 115, fracción I, segundo párrafo de la Constitución Federal; 90 párrafo cuarto y sexto de la Constitución Local, no será aplicable a los ayuntamientos que entren en funciones el 1 de enero de 2017 y culminen el 30 de agosto de 2021, al ser su periodo de mandato superior a tres años. El régimen de reelección previsto en el art. 90 párrafos cuarto y sexto de esta Constitución, será aplicable a partir de los ayuntamientos que rindan protesta el día treinta y uno de agosto de 2021.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgedb5bab" class="outline-4">
+<h4 id="orgedb5bab"><span class="section-number-4">3.29.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-29-3">
+<p>
+Guadalupe Cervantes Terán (lupillo.guada15 at gmail dot com)
+</p>
+</div>
+</div>
+<div id="outline-container-org8bdc105" class="outline-4">
+<h4 id="org8bdc105"><span class="section-number-4">3.29.4</span> Nota</h4>
+<div class="outline-text-4" id="text-3-29-4">
+<p>
+Diferimos de IMCO, que nos establece la fecha de inicio de la reelección.
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9421e23" class="outline-3">
+<h3 id="org9421e23"><span class="section-number-3">3.30</span> Veracruz</h3>
+<div class="outline-text-3" id="text-3-30">
+</div><div id="outline-container-org0ec897c" class="outline-4">
+<h4 id="org0ec897c"><span class="section-number-4">3.30.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-30-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=ver</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-left">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-left">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-left">(no consecutiva)</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 9/1/2015
+</p>
+</div>
+</div>
+<div id="outline-container-orgc7e0301" class="outline-4">
+<h4 id="orgc7e0301"><span class="section-number-4">3.30.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-30-2">
+<ul class="org-ul">
+<li>Art. 21. El Congreso se renovará en su totalidad cada tres años y se instalará el día 5 de noviembre inmediato posterior a las elecciones. Los diputados, cuando tengan el carácter de propietarios, no podrán ser elegidos para el período inmediato siguiente, ni aún con el carácter de suplentes; pero los que tengan el carácter de suplentes, sí podrán ser elegidos para el período inmediato como propietarios, a menos que hayan estado en ejercicio. Los diputados podrán ser electos hasta por cuatro periodos consecutivos. La postulación para la reelección sólo podrá ser realizada por el mismo partido que hizo la postulación previa o por alguno de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 70. Los ediles durarán en su cargo cuatro años, debiendo tomar posesión el día primero de enero inmediato a su elección &#x2026; Los ediles no podrán ser elegidos para integrar el Ayuntamiento del período siguiente; la misma prohibición se aplicará a los integrantes de los Concejos Municipales. Los ediles, cuando tengan el carácter de propietarios, no podrán ser elegidos para el período inmediato como suplentes; pero los que tengan el carácter de suplentes, sí podrán ser elegidos para el período inmediato como propietarios, a menos que hayan estado en ejercicio.</li>
+<li>Transitorios (G.O. 9/1/2015)
+<ul class="org-ul">
+<li>Segundo. Los diputados al Congreso del Estado que se elijan el primer domingo de junio de 2016 durarán en su encargo dos años. Los diputados a la LXV Legislatura serán electos excepcionalmente el primer domingo de julio de 2018 y tomarán posesión el 5 de noviembre del mismo año. Asimismo, el primer domingo de julio de 2018 se elegirá al Gobernador del Estado, para cubrir el período del 1 de diciembre de 2018 al 30 de noviembre de 2024.</li>
+<li>Tercero. La reforma al art. 21, relativa a la elección consecutiva de diputados, será aplicable a los diputados que sean electos a partir del proceso electoral de 2016.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdf195d7" class="outline-4">
+<h4 id="orgdf195d7"><span class="section-number-4">3.30.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-30-3">
+<p>
+Gonzalo Solís (gsrgonzalo at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0f640cb" class="outline-3">
+<h3 id="org0f640cb"><span class="section-number-3">3.31</span> Yucatán</h3>
+<div class="outline-text-3" id="text-3-31">
+</div><div id="outline-container-org7d0c113" class="outline-4">
+<h4 id="org7d0c113"><span class="section-number-4">3.31.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-31-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=yuc</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 20/6/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org5d3b537" class="outline-4">
+<h4 id="org5d3b537"><span class="section-number-4">3.31.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-31-2">
+<ul class="org-ul">
+<li>Art. 20. &#x2026; Los diputados podrán ser electos hasta por cuatro períodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieran postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. La reelección se efectuará conforme a lo que disponga la Ley.</li>
+<li>Art. 77. Los municipios se organizarán administrativa y políticamente, conforme a las bases siguientes: Primera. Los ayuntamientos entrarán en funciones, el 1 de septiembre inmediato a su elección, y durarán en su encargo tres años. Segunda. El Presidente Municipal, los regidores y el síndico, podrán ser reelectos para un período constitucional adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato. La reelección se efectuará conforme a lo que disponga la Ley.</li>
+<li>Transitorios (decreto 195 D.O. 20/6/2014)
+<ul class="org-ul">
+<li>Tercero. La reelección de diputados del Congreso local no será aplicable para aquellos que se encuentren en funciones a la entrada en vigor de este decreto.</li>
+<li>Cuarto. La reelección de presidentes municipales, regidores y síndicos no será aplicable a los integrantes que hayan protestado el cargo en el ayuntamiento que se encuentre en funciones a la entrada en vigor de este decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3b43030" class="outline-4">
+<h4 id="org3b43030"><span class="section-number-4">3.31.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-31-3">
+<p>
+Patricia Cruz Marín (pacruma at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc577388" class="outline-3">
+<h3 id="orgc577388"><span class="section-number-3">3.32</span> Zacatecas</h3>
+<div class="outline-text-3" id="text-3-32">
+</div><div id="outline-container-org1c80d48" class="outline-4">
+<h4 id="org1c80d48"><span class="section-number-4">3.32.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-32-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">edo=zac</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">ayuntamientos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2018</td>
+<td class="org-right">2018</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 12/7/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org5e77195" class="outline-4">
+<h4 id="org5e77195"><span class="section-number-4">3.32.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-32-2">
+<ul class="org-ul">
+<li>Art. 51 Los Diputados podrán ser electos consecutivamente por un período adicional. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato (&#x2026;)</li>
+<li>Art. 118 &#x2026; El Ayuntamiento se integrará por un Presidente, un Síndico y el número de Regidores que determine esta Constitución y la Ley, quienes tendrán derecho a la elección consecutiva para el mismo cargo, por un período adicional, siempre y cuando sean postulados por el mismo partido o por cualquiera de los partidos integrantes de la coalición que les hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato&#x2026;</li>
+<li>Transitorios (P.O. 12/7/2014)
+<ul class="org-ul">
+<li>Décimo. La reforma al art. 118 de esta Constitución será aplicable a los integrantes de los Ayuntamientos que sean electos a partir del proceso electoral de 2016 [y] no será aplicable a los integrantes que hayan protestado el cargo en el Ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Décimo primero. Por única ocasión, los integrantes de los Ayuntamientos Electos en el proceso electoral del año 2016, durarán en su encargo dos años y se realizarán elecciones municipales para la renovación total de los Ayuntamientos en el año 2018&#x2026;</li>
+<li>Décimo segundo. La reforma al art. 51 de esta Constitución será aplicable a los diputados que sean electos a partir del proceso electoral de 2016 [y] no será aplicable a los legisladores que hayan protestado el cargo en la legislatura que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Décimo tercero. Por única ocasión, los integrantes de Legislatura del Estado que sean electos en el proceso electoral del año 2016 durarán en su encargo dos años y se realizarán elecciones de Diputados en el año 2018&#x2026;</li>
+<li>Décimo cuarto. Por única ocasión, el Titular del Ejecutivo que sea electo en el proceso electoral del año 2016, durará en su encargo cinco años y se realizará elección de Gobernador en el año 2021&#x2026;</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4168187" class="outline-4">
+<h4 id="org4168187"><span class="section-number-4">3.32.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-32-3">
+<p>
+Oscar Alcántara (oav1995 at gmail dot com)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org25788f8" class="outline-3">
+<h3 id="org25788f8"><span class="section-number-3">3.33</span> Estados Unidos Mexicanos</h3>
+<div class="outline-text-3" id="text-3-33">
+</div><div id="outline-container-org09e57bb" class="outline-4">
+<h4 id="org09e57bb"><span class="section-number-4">3.33.1</span> Resumen</h4>
+<div class="outline-text-4" id="text-3-33-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">diputados</th>
+<th scope="col" class="org-right">senadores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Periodos consecutivos que pueden servir</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Año que los ocupantes podrán contender por reelegirse</td>
+<td class="org-right">2021</td>
+<td class="org-right">2024</td>
+</tr>
+</tbody>
+</table>
+<p>
+Publicación de la reforma: 10/2/2014
+</p>
+</div>
+</div>
+<div id="outline-container-org1dadbce" class="outline-4">
+<h4 id="org1dadbce"><span class="section-number-4">3.33.2</span> Extracto de los artículos constitucionales relevantes</h4>
+<div class="outline-text-4" id="text-3-33-2">
+<ul class="org-ul">
+<li>Art. 59. Los Senadores podrán ser electos hasta por dos periodos consecutivos y los Diputados al Congreso de la Unión hasta por cuatro periodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 115.I &#x2026; Las Constituciones de los estados deberán establecer la elección consecutiva para el mismo cargo de presidentes municipales, regidores y síndicos, por un período adicional, siempre y cuando el periodo del mandato de los ayuntamientos no sea superior a tres años. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que lo hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Art. 116.II &#x2026; Las Constituciones estatales deberán establecer la elección consecutiva de los diputados a las legislaturas de los Estados, hasta por cuatro periodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubieren postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.</li>
+<li>Transitorios (D.O.F. 10/2/2014)
+<ul class="org-ul">
+<li>Décimo Primero. La reforma al art. 59 de esta Constitución será aplicable a los diputados y senadores que sean electos a partir del proceso electoral de 2018.</li>
+<li>Décimo Tercero. La reforma al artículo 116 de esta Constitución en materia de reelección de diputados locales, así como a diputados a la Asamblea Legislativa del Distrito Federal, no será aplicable a los legisladores que hayan protestado el cargo en la legislatura que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+<li>Décimo cuarto. La reforma al art. 115 de esta Constitución en materia de reelección de presidentes municipales, regidores y síndicos no será aplicable a los integrantes que hayan protestado el cargo en el Ayuntamiento que se encuentre en funciones a la entrada en vigor del presente Decreto.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org64d6969" class="outline-4">
+<h4 id="org64d6969"><span class="section-number-4">3.33.3</span> Responsable</h4>
+<div class="outline-text-4" id="text-3-33-3">
+<p>
+Eric Magar (emagar at itam dot mx)
+</p>
+
+<hr  />
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf97c2b9" class="outline-2">
+<h2 id="orgf97c2b9"><span class="section-number-2">4</span> Créditos</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-orgcf9b30c" class="outline-3">
+<h3 id="orgcf9b30c"><span class="section-number-3">4.1</span> Coordinación general</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>Eric Magar Meurs</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org00ac61e" class="outline-3">
+<h3 id="org00ac61e"><span class="section-number-3">4.2</span> Responsables de los estados</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>Edgar Armando Monsiváis Solís</li>
+<li>Eric Magar Meurs</li>
+<li>Fermín Alejandro Acosta Ruiz</li>
+<li>Gonzalo Solís</li>
+<li>Gretel Calleros Arellano</li>
+<li>Guadalupe Cervantes Terán</li>
+<li>Javier Cote</li>
+<li>Jimena Soto Calzada</li>
+<li>José Alejandro Palma López</li>
+<li>José Rubén Figueroa Velasco</li>
+<li>Juan Carlos Palma López</li>
+<li>Marco Cabrera</li>
+<li>Michelle Sáenz Fernández</li>
+<li>Oscar Alcántara</li>
+<li>Patricia Cruz Marín</li>
+<li>Ricardo de la Teja M.</li>
+<li>Rodrigo Corona Galindo</li>
+<li>Sofía De la Mora</li>
+<li>Teresa Ruiz Rivera</li>
+<li>Valeria Guerrero Muñoz Ledo</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org448c73c" class="outline-3">
+<h3 id="org448c73c"><span class="section-number-3">4.3</span> Recopilación, síntesis y cotejo de las leyes</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li>Edgar Armando Monsiváis Solís</li>
+<li>Eric Magar Meurs</li>
+<li>Fermín Alejandro Acosta Ruiz</li>
+<li>Gonzalo Solís</li>
+<li>Gretel Calleros Arellano</li>
+<li>Guadalupe Cervantes Terán</li>
+<li>Javier Cote</li>
+<li>Jimena Soto Calzada</li>
+<li>José Alejandro Palma López</li>
+<li>José Rubén Figueroa Velasco</li>
+<li>Juan Carlos Palma López</li>
+<li>Marco Antonio Cabrera Gómez</li>
+<li>Michelle Sáenz Fernández</li>
+<li>Oscar Alcántara</li>
+<li>Patricia Cruz Marín</li>
+<li>Patricio Díaz Romo</li>
+<li>Ricardo de la Teja M.</li>
+<li>Rodrigo Corona Galindo</li>
+<li>Sofía De la Mora</li>
+<li>Teresa Ruiz Rivera</li>
+<li>Valeria Guerrero Muñoz Ledo</li>
+<li>Yoshua Pellman Charnievich</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2017-04-24</p>
+<p class="author">Author: Eric Magar y alumnos de Política Comparada II</p>
+<p class="date">Created: 2017-04-24 Mon 21:32</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
