@@ -1,5 +1,5 @@
 ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y2001,y2002,y2003,y2004,y2005,y2006,y2007,y2008,y2009,y2010,y2011,y2012,y2013,y2014,y2015,y2016,y2017,y2018,y2019,y2020,y2021,y2022,y2023,y2024,y2025,artConst,notas
-1,0,Federal,pres,no reelegible,1,21ago,--,--,--,--,--,2jul,--,--,--,--,--,2jul,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,.
+1,0,Federal,pres,no reelegible,1,21ago,--,--,--,--,--,2jul,--,--,--,--,--,2jul,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,0
 2,0,,dip,2021,4,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,,
 3,0,,sen,2024,2,21ago,--,--,6jul,--,--,2jul,--,--,--,--,--,2jul,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,
 4,1,Aguascalientes,gob,no reelegible,1,--,--,--,--,2ago,--,--,--,--,--,1ago,--,--,--,--,--,4jul,--,--,--,--,--,5jun,--,--,--,--,--,5jun,--,--,--,,
@@ -15,7 +15,7 @@ ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y200
 14,4,,dloc,2018,4,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,32,
 15,4,,ayun,2018,2,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,102.V,
 16,5,Coahuila,gob,no reelegible,1,--,--,--,--,--,26sep,--,--,--,--,--,25sep,--,--,--,--,--,3jul,--,--,--,--,--,4jun,--,--,--,--,--,4jun,--,--,,
-17,5,,dloc,2017,4,21ago,--,10nov,--,--,26sep,--,--,29sep,--,--,25sep,--,--,5sep,--,--,3jul,--,--,6jul,--,--,4jun,--,--,7jun,--,--,4jun,--,--,"C:30, CE:12.3",Elec 2020 pospuesta covid19
+17,5,,dloc,2017,4,21ago,--,10nov,--,--,26sep,--,--,29sep,--,--,25sep,--,--,5sep,--,--,3jul,--,--,6jul,--,--,4jun,--,--,18oct,--,--,4jun,--,--,"C:30, CE:12.3",Elec 2020 pospuesta covid19 fecha por confirmar
 18,5,,ayun,2018,2,--,--,10nov,--,--,26sep,--,--,29sep,--,--,25sep,--,--,--,18oct,--,--,--,7jul,--,--,--,4jun,1jul,--,--,6jun,--,--,2jun,--,"C:30, CE:14.4",
 19,6,Colima,gob,no reelegible,1,--,--,--,6jul,--,--,--,--,--,6jul,--,10abr,--,--,--,5jul,--,--,--,--,--,7jun,17ene,--,--,--,--,6jun,--,--,2jun,--,,Elec. extraordinarias: 7dic2003 (anulada); 10abr2005 (falleció el gobernador); 17ene15 (anulada tepjf)
 20,6,,dloc,2018,2,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,23,
@@ -40,7 +40,7 @@ ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y200
 39,12,,ayun,2018,2,--,--,6oct,--,--,3oct,--,--,6oct,--,--,2oct,--,--,5oct,--,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,176.I,
 40,13,Hidalgo,gob,no reelegible,1,--,--,--,--,--,21feb,--,--,--,--,--,20feb,--,--,--,--,4jul,--,--,--,--,--,5jun,--,--,--,--,--,5jun,--,--,--,,
 41,13,,dloc,2018,2,--,--,18feb,--,--,21feb,--,--,17feb,--,--,20feb,--,--,17feb,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,33,
-42,13,,ayun,no consecutiva,1,--,--,10nov,--,--,14nov,--,--,10nov,--,--,13nov,--,--,9nov,--,--,3jul,--,--,--,--,5jun,--,--,--,7jun,--,--,--,2jun,--,125,Elec 2020 pospuesta covid19
+42,13,,ayun,no consecutiva,1,--,--,10nov,--,--,14nov,--,--,10nov,--,--,13nov,--,--,9nov,--,--,3jul,--,--,--,--,5jun,--,--,--,18oct,--,--,--,2jun,--,125,Elec 2020 pospuesta covid19 fecha por confirmar
 43,14,Jalisco,gob,no reelegible,1,--,12feb,--,--,--,--,12nov,--,--,--,--,--,2jul,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,
 44,14,,dloc,2018,4,--,12feb,--,9nov,--,--,12nov,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,22,
 45,14,,ayun,2018,2,--,12feb,--,9nov,--,--,12nov,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,73.IV,
