@@ -1,5 +1,6 @@
+,,,,Ocupantes podrán contender en,Periodos consecutivos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y2001,y2002,y2003,y2004,y2005,y2006,y2007,y2008,y2009,y2010,y2011,y2012,y2013,y2014,y2015,y2016,y2017,y2018,y2019,y2020,y2021,y2022,y2023,y2024,y2025,artConst,notas
-1,0,Federal,pres,no reelegible,1,21ago,--,--,--,--,--,2jul,--,--,--,--,--,2jul,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,0
+1,0,Federal,pres,no reelegible,1,21ago,--,--,--,--,--,2jul,--,--,--,--,--,2jul,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,.
 2,0,,dip,2021,4,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,,
 3,0,,sen,2024,2,21ago,--,--,6jul,--,--,2jul,--,--,--,--,--,2jul,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,
 4,1,Aguascalientes,gob,no reelegible,1,--,--,--,--,2ago,--,--,--,--,--,1ago,--,--,--,--,--,4jul,--,--,--,--,--,5jun,--,--,--,--,--,5jun,--,--,--,,
@@ -91,10 +92,13 @@ ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y200
 90,29,,ayun,2024,2,20nov,--,--,--,8nov,--,--,11nov,--,--,14nov,--,--,11nov,--,--,4jul,--,--,7jul,--,--,5jun,--,--,--,--,6jun,--,--,2jun,--,90,
 91,30,Veracruz,gob,no reelegible,1,--,--,--,--,2ago,--,--,--,--,--,5sep,--,--,--,--,--,4jul,--,--,--,--,--,5jun,--,1jul,--,--,--,--,--,2jun,--,,
 92,30,,dloc,2018,4,--,6ago,--,--,2ago,--,3sep,--,--,--,5sep,--,--,2sep,--,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,21,
-93,30,,ayun,no consecutiva,1,13nov,--,--,19oct,--,--,3sep,--,--,--,5sep,--,--,2sep,--,--,4jul,--,--,7jul,--,--,--,4jun,--,--,--,6jun,--,--,--,1jun,70,
+93,30,,ayun,2024,2,13nov,--,--,19oct,--,--,3sep,--,--,--,5sep,--,--,2sep,--,--,4jul,--,--,7jul,--,--,--,4jun,--,--,--,6jun,--,--,2jun,--,70,12mayo2020 reforma const para adoptar reeleccion consecutiva
 94,31,Yucatán,gob,no reelegible,1,--,28may,--,--,--,--,--,27may,--,--,--,--,--,20may,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,
 95,31,,dloc,2018,4,--,28may,--,--,24may,--,--,27may,--,--,23may,--,--,20may,--,--,16may,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,20,
 96,31,,ayun,2018,2,--,28may,--,--,24may,--,--,27may,--,--,23may,--,--,20may,--,--,16may,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,77,
 97,32,Zacatecas,gob,no reelegible,1,--,--,--,--,5jul,--,--,--,--,--,4jul,--,--,--,--,--,4jul,--,--,--,--,--,5jun,--,--,--,--,6jun,--,--,--,--,,
 98,32,,dloc,2018,2,--,6ago,--,--,5jul,--,--,1jul,--,--,4jul,--,--,1jul,--,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,51,
 99,32,,ayun,2018,2,--,6ago,--,--,5jul,--,--,1jul,--,--,4jul,--,--,1jul,--,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,118,
+100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+101,,"Preparado por Eric Magar Meurs --- si detecta un error u omisión, por favor repórtelo a  emagar@itam.mx",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+102,,"Para citar este documento: Eric Magar, “Calendarios electorales e instituciones de reelección consecutiva de México desde 1994”, base de datos disponible en https://github.com/emagar/calendarioReeleccion (versión del 8/2/2019)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
