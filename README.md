@@ -3,7 +3,7 @@
 
 
 
-![img](./plot/cal.png)
+[./plot/cal.png](./plot/cal.pdf)
 
 Libro de códigos para fechasEleccionesMexicoDesde1994.csv
 
