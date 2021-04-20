@@ -134,5 +134,3 @@ text(x = rep(ymd(19940101), 32), y = -1:-32, names(mu), pos =2) # state abbrev.
 mtext(text = "https://github.com/emagar/calendarioReelecion", side = 1, line = 1.5, cex = .67, col = "gray", adj = 1)
 #dev.off()
 
- 
-    2025
