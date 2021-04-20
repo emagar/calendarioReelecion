@@ -33,25 +33,7 @@ Codebook for fechasEleccionesMexicoDesde1994.csv
 
 <tr>
 <td class="org-left">elec</td>
-<td class="org-left">Las filas ‘gob’, ‘dloc’ y ‘ayun’ reportan, respectivamente, la información de las elecciones</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">gubernatorial, de diputados estatales y de ayuntamientos municipales. En el caso federal</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">(primeras tres filas) reporta la información de las elecciones presidencial, de diputados y de</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">senadores.</td>
+<td class="org-left">Las filas ‘gob’, ‘dloc’ y ‘ayun’ reportan, respectivamente, la información de las elecciones gubernatorial, de diputados estatales y de ayuntamientos municipales. En el caso federal (primeras tres filas) reporta la información de las elecciones presidencial, de diputados y de senadores.</td>
 </tr>
 
 
@@ -69,13 +51,7 @@ Codebook for fechasEleccionesMexicoDesde1994.csv
 
 <tr>
 <td class="org-left">y1994-y2025</td>
-<td class="org-left">Día y mes de la elección correspondiente al año de la columna (dos guiones indican que no se</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">celebró elección ese año).</td>
+<td class="org-left">Día y mes de la elección correspondiente al año de la columna (dos guiones indican que no se celebró elección ese año).</td>
 </tr>
 </tbody>
 </table>
@@ -104,19 +80,7 @@ Codebook for fechasEleccionesMexicoDesde1994.csv
 
 <tr>
 <td class="org-left">elec</td>
-<td class="org-left">Rows ‘gob’, ‘dloc’ and ‘ayun’ report, respectively, the information for gubernatorial, state</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">legislative, and municipal elections. For the federal case (top three rows) the information is for</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">the presidential, federal deputy, and senatorial elections.</td>
+<td class="org-left">Rows ‘gob’, ‘dloc’ and ‘ayun’ report, respectively, the information for gubernatorial, state legislative, and municipal elections. For the federal case (top three rows) the information is for the presidential, federal deputy, and senatorial elections.</td>
 </tr>
 
 
@@ -134,13 +98,7 @@ Codebook for fechasEleccionesMexicoDesde1994.csv
 
 <tr>
 <td class="org-left">y1994-y2025</td>
-<td class="org-left">Day and month of the election for year in column (double hyphen indicates that no election was</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">held that year).</td>
+<td class="org-left">Day and month of the election for year in column (double hyphen indicates that no election was held that year).</td>
 </tr>
 </tbody>
 </table>
