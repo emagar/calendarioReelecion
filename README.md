@@ -57,7 +57,7 @@ Codebook for fechasEleccionesMexicoDesde1994.csv
 
 <tr>
 <td class="org-left">yr1st</td>
-<td class="org-left">El año de la primera elección en que los ocupantes (incumbents) pueden contender por reelegirse.</td>
+<td class="org-left">El año de la primera elección en que los ocupantes (incumbents) pueden contender para reelegirse.</td>
 </tr>
 
 
@@ -69,13 +69,13 @@ Codebook for fechasEleccionesMexicoDesde1994.csv
 
 <tr>
 <td class="org-left">y1994-y2025</td>
-<td class="org-left">Día y mes de la elección correspondiente al año de la columna (doble raya indica que no se celebró</td>
+<td class="org-left">Día y mes de la elección correspondiente al año de la columna (dos guiones indican que no se</td>
 </tr>
 
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">elección ese año).</td>
+<td class="org-left">celebró elección ese año).</td>
 </tr>
 </tbody>
 </table>
