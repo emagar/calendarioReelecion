@@ -109,9 +109,9 @@ axis(1, at = ymd(paste(1994:2024, "0701", sep = "")),
 abline(h=-1:-32, col="gray90")
 abline(v=ymd(paste(1994:2025, "0101", sep = "")), col="gray90")
 abline(v=pr,          lwd = 1.25) # fed els
-text(y=-32.5, x=pr[1], pos=3, "Federal", srt = 90, col = "gray35", cex = .75)
-text(y=-32.5, x=df[2], pos=3, "midterm", srt = 90, col = "gray35", cex = .75)
+text(y=-32.4, x=pr[1], pos=3, "federal", srt = 90, col = "gray35", cex = .75)
 abline(v=df, lty = 2, lwd = 1) # midterms
+text(y=-32.4, x=df[2], pos=3, "midterm", srt = 90, col = "gray35", cex = .75)
 polygon(x = ymd(c(19900101,19900101,19940101,19940101)), y = c(2,-35,-35,2),  col = "white", border = "white")
 polygon(x = ymd(c(19900101,19900101,20500101,20500101)),  y = c(-.5,7,7,-.5), col = "white", border = "white")
 for (i in 1:32){
