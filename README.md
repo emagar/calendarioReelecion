@@ -1,8 +1,8 @@
 ![img](./plot/cal.png)
 
-Libro de códigos para <./data/fechasEleccionesMexicoDesde1994.csv>
+Libro de códigos para [`fechasEleccionesMexicoDesde1994.csv`](./data/fechasEleccionesMexicoDesde1994.csv)
 
-Codebook for <./fechasEleccionesMexicoDesde1994.csv>
+Codebook for [`fechasEleccionesMexicoDesde1994.csv`](./data/fechasEleccionesMexicoDesde1994.csv)
 
 | columna     | dato reportado                                                                                                                                                                                                                                                                                  |
 | edon        | Código del estado (compatibles con INEGI, exceptuando el cero que indica la federación).                                                                                                                                                                                                        |
