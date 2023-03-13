@@ -1,4 +1,3 @@
-,,,,Ocupantes podrán contender en,Periodos consecutivos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y2001,y2002,y2003,y2004,y2005,y2006,y2007,y2008,y2009,y2010,y2011,y2012,y2013,y2014,y2015,y2016,y2017,y2018,y2019,y2020,y2021,y2022,y2023,y2024,y2025,artConst,notas
 1,0,Federal,pres,no reelegible,1,21ago,--,--,--,--,--,2jul,--,--,--,--,--,2jul,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,.
 2,0,,dip,2021,4,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,,
@@ -16,14 +15,14 @@ ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y200
 14,4,,dloc,2018,4,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,32,
 15,4,,ayun,2018,2,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,102.V,
 16,5,Coahuila,gob,no reelegible,1,--,--,--,--,--,26sep,--,--,--,--,--,25sep,--,--,--,--,--,3jul,--,--,--,--,--,4jun,--,--,--,--,--,4jun,--,--,,
-17,5,,dloc,2017,4,21ago,--,10nov,--,--,26sep,--,--,29sep,--,--,25sep,--,--,5sep,--,--,3jul,--,--,6jul,--,--,4jun,--,--,18oct,--,--,4jun,--,--,"C:30, CE:12.3",Elec 2020 pospuesta covid19 fecha por confirmar
-18,5,,ayun,2018,2,--,--,10nov,--,--,26sep,--,--,29sep,--,--,25sep,--,--,--,18oct,--,--,--,7jul,--,--,--,4jun,1jul,--,--,6jun,--,--,2jun,--,"C:30, CE:14.4",
-19,6,Colima,gob,no reelegible,1,--,--,--,6jul,--,--,--,--,--,6jul,--,10abr,--,--,--,5jul,--,--,--,--,--,7jun,17ene,--,--,--,--,6jun,--,--,--,--,,Elec. extraordinarias: 7dic2003 (anulada); 10abr2005 (falleció el gobernador); 17ene15 (anulada tepjf)
+17,5,,dloc,2017,4,21ago,--,10nov,--,--,26sep,--,--,29sep,--,--,25sep,--,--,5sep,--,--,3jul,--,--,6jul,--,--,4jun,--,--,18oct,--,--,4jun,--,--,C:30 CE:12.3,Elec 2020 pospuesta covid19 7jun→18oct
+18,5,,ayun,2018,2,--,--,10nov,--,--,26sep,--,--,29sep,--,--,25sep,--,--,--,18oct,--,--,--,7jul,--,--,--,4jun,1jul,--,--,6jun,--,--,2jun,--,C:30 CE:14.4,
+19,6,Colima,gob,no reelegible,1,--,--,--,6jul,--,--,--,--,--,6jul,--,10abr,--,--,--,5jul,--,--,--,--,--,7jun,17ene,--,--,--,--,6jun,--,--,--,--,,Elec. extraordinarias: 7dic2003 (anulada)--10abr2005 (falleció el gobernador)--17ene15 (anulada tepjf)
 20,6,,dloc,2018,2,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,23,
 21,6,,ayun,2018,2,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,87.I,
 22,7,Chiapas,gob,no reelegible,1,21ago,--,--,--,--,--,20ago,--,--,--,--,--,20ago,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,--,--,--,2jun,--,,
 23,7,,dloc,2018,4,--,15oct,--,--,4oct,--,--,7oct,--,--,3oct,--,--,7oct,--,--,4jul,--,1jul,--,--,19jul,--,--,1jul,--,--,6jun,--,--,2jun,--,C:28,
-24,7,,ayun,2018,2,--,15oct,--,--,4oct,--,--,7oct,--,--,3oct,--,--,7oct,--,--,4jul,--,1jul,--,--,19jul,--,--,1jul,--,--,6jun,--,--,2jun,--,"C:28, CE:26",
+24,7,,ayun,2018,2,--,15oct,--,--,4oct,--,--,7oct,--,--,3oct,--,--,7oct,--,--,4jul,--,1jul,--,--,19jul,--,--,1jul,--,--,6jun,--,--,2jun,--,C:28 CE:26,
 25,8,Chihuahua,gob,no reelegible,1,--,--,--,--,5jul,--,--,--,--,--,4jul,--,--,--,--,--,4jul,--,--,--,--,--,5jun,--,--,--,--,6jun,--,--,--,--,,
 26,8,,dloc,2018,2,--,9jul,--,--,5jul,--,--,1jul,--,--,4jul,--,--,1jul,--,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,44,
 27,8,,ayun,2018,2,--,9jul,--,--,5jul,--,--,1jul,--,--,4jul,--,--,1jul,--,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,126,
@@ -74,13 +73,13 @@ ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y200
 72,23,,ayun,2018,2,--,--,18feb,--,--,21feb,--,--,17feb,--,--,6feb,--,--,3feb,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,139,
 73,24,San Luis Potosí,gob,no reelegible,1,--,--,--,6jul,--,--,--,--,--,6jul,--,--,--,--,--,5jul,--,--,--,--,--,7jun,--,--,--,--,--,6jun,--,--,--,--,,
 74,24,,dloc,2018,4,--,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,48,
-75,24,,ayun,2018,2,4dic,--,--,6jul,--,--,2jul,--,--,19oct,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,114,"Hubo segundas vueltas: 17ago1997, 13ago2000 y 14dic2003"
+75,24,,ayun,2018,2,4dic,--,--,6jul,--,--,2jul,--,--,19oct,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,114,Hubo segundas vueltas: 17ago1997 13ago2000 y 14dic2003
 76,25,Sinaloa,gob,no reelegible,1,--,--,--,--,8nov,--,--,--,--,--,14nov,--,--,--,--,--,4jul,--,--,--,--,--,5jun,--,--,--,--,6jun,--,--,--,--,,
 77,25,,dloc,2018,4,--,12nov,--,--,8nov,--,--,11nov,--,--,14nov,--,--,14oct,--,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,117,
 78,25,,ayun,2018,2,--,12nov,--,--,8nov,--,--,11nov,--,--,14nov,--,--,14oct,--,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,117,
 79,26,Sonora,gob,no reelegible,1,--,--,--,6jul,--,--,--,--,--,6jul,--,--,--,--,--,5jul,--,--,--,--,--,7jun,--,--,--,--,--,6jun,--,--,--,--,,
-80,26,,dloc,2021,4,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,"30, 6transit",
-81,26,,ayun,2018*,2,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,"131, 7transit","* 7transit dice 2021 para reelección, pero hubo reelectos en 2018, quizás fallo SCJN"
+80,26,,dloc,2018,4,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,30--6transit,
+81,26,,ayun,2018,2,21ago,--,--,6jul,--,--,2jul,--,--,6jul,--,--,2jul,--,--,5jul,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,131--7transit,* 7transit dice 2021 para reelección pero hubo reelectos en 2018 quizás fallo SCJN
 82,27,Tabasco,gob,no reelegible,1,20nov,--,--,--,--,--,15oct,5ago,--,--,--,--,15oct,--,--,--,--,--,1jul,--,--,--,--,--,1jul,--,--,6jun,--,--,--,--,,
 83,27,,dloc,2018,4,20nov,--,--,19oct,--,--,15oct,--,--,19oct,--,--,15oct,--,--,18oct,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,16,
 84,27,,ayun,2018,2,20nov,--,--,19oct,--,--,15oct,--,--,19oct,--,--,15oct,--,--,18oct,--,--,1jul,--,--,7jun,--,--,1jul,--,--,6jun,--,--,2jun,--,64,
@@ -101,4 +100,4 @@ ord,edon,estado,elec,yr1st,nTerms,y1994,y1995,y1996,y1997,y1998,y1999,y2000,y200
 99,32,,ayun,2018,2,--,6ago,--,--,5jul,--,--,1jul,--,--,4jul,--,--,1jul,--,--,4jul,--,--,7jul,--,--,5jun,--,1jul,--,--,6jun,--,--,2jun,--,118,
 100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 101,,"Preparado por Eric Magar Meurs --- si detecta un error u omisión, por favor repórtelo a  emagar@itam.mx",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-102,,"Para citar este documento: Eric Magar, “Calendarios electorales e instituciones de reelección consecutiva de México desde 1994”, base de datos disponible en https://github.com/emagar/calendarioReeleccion (versión del 8/2/2019)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+102,,"Para citar este documento: Eric Magar, “Calendarios electorales e instituciones de reelección consecutiva de México desde 1994”, base de datos disponible en https://github.com/emagar/calendarioReeleccion (versión del 13/3/2023)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
